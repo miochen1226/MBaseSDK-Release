@@ -21,7 +21,7 @@ pod 'MBaseSDK'
 
 ## Using MBaseSDK
 ### BaseVC for Data Mapping
-xib file
+xib file \
 ![image](https://github.com/miochen1226/MBaseSDK-Release/blob/master/snapshots/xib_id_example.png)
 
 Swift file
