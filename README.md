@@ -4,12 +4,12 @@
 ## Function
 * Auto fill text to controls(UILabel,UITextField,UIButton....)
 * Make your customize ViewControl more reuseful
-* Easy tool for navigatie Page to another Page
+* Easy tool for navigate Page to another Page
 * Build-in DemoPage for demostrating all pages you developed
 
 ## Add to the Podfile
 ```objc 
-pod 'MBaseSDK','~>1.0.5'
+pod 'MBaseSDK'
 ```
 
 ## How to use MBaseSDK
@@ -25,4 +25,5 @@ class MyVC: BaseVC {
 ```
 ## Referance
 * Demo Project
+https://github.com/miochen1226/MBaseDemo
 
