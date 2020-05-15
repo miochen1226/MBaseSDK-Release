@@ -258,3 +258,5 @@ func enterDemoStage(){
 ## Referance
 * Demo Project
 https://github.com/miochen1226/MBaseDemo
+* Page class code generator
+https://github.com/miochen1226/MBasePagesGenerator
