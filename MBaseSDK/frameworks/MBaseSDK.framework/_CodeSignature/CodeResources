@@ -6,7 +6,11 @@
 	<dict>
 		<key>BaseHolderVC.nib</key>
 		<data>
-		E34FUsH8rkEtc9CjBl9Hamp8sRM=
+		u2qCf+LEirZnXW0WEBDpDuNHIFs=
+		</data>
+		<key>Headers/BorderView.swift</key>
+		<data>
+		Wvpl85MmCDKFTN7J8N3qf+IZ4d0=
 		</data>
 		<key>Headers/MBaseSDK-Swift.h</key>
 		<data>
@@ -16,9 +20,21 @@
 		<data>
 		Hxt3EwxtJ+3UAemQCdM9hZjTvh8=
 		</data>
+		<key>Headers/RadiusButton.swift</key>
+		<data>
+		hn1x/Ex1quXq/ZAeLxEFwIhms2Q=
+		</data>
+		<key>Headers/RadiusImageView.swift</key>
+		<data>
+		gQX1fGH1iRRYfm6KjfLueIFekFY=
+		</data>
+		<key>Headers/RadiusView.swift</key>
+		<data>
+		owrxxNi0ASGr+0LYQnOXDxgcDqo=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		CbKnmKub4FviI4a4dO+tkdjJBBI=
+		rYCjIFCdT1ViULDwru7IdSi1yqQ=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -26,31 +42,31 @@
 		</data>
 		<key>MBDemoPageViewerVC.nib/objects-11.0+.nib</key>
 		<data>
-		sFxltwzAu1rg6vnDP7YbK1/zW5c=
+		KFyIuPHZQ7OG0/b5UfE+nvZFyR0=
 		</data>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<data>
-		ZW1vRVG3n+qUhA+IGSkcLIJxsKw=
+		QRirdttWsJQLXVjO/wtBvJ0RtPY=
 		</data>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<data>
-		8ykAi0GlBW0XfFxTIMYI+w3r1f0=
+		jF9r/8UCCb33/4BaNCq4u44hZ6U=
 		</data>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<data>
-		H6y+sIwlGtoYfHiBYLZqZQULJjM=
+		1fq0Z2dv/tAaY5tbRpoyr1sWZ2I=
 		</data>
 		<key>MBDirectoryCell.nib</key>
 		<data>
-		pUobqrF8Ml4jv32lP8TAEX5Ilj4=
+		uDkNVqI+9N2V+q33EYfiDg039HA=
 		</data>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<data>
-		M/06Uom1yAEw3LVQ4ZCPJczWt4o=
+		FVoZV7dDi0gjP+d3J8Iu8tCZZKw=
 		</data>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<data>
-		cEwnOCYaEY0R5GMxbuFLhO5Lp3Q=
+		nnizTYdVmPbS4RNpS26RroKRdv0=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -91,11 +107,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E34FUsH8rkEtc9CjBl9Hamp8sRM=
+			u2qCf+LEirZnXW0WEBDpDuNHIFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uq3ztgXUof1ObakinHsn02HyoltZaGjmG/5/2BKjz9U=
+			NvO43hbPdiXDo7MRjQKUblLh7avLIGHXtBCU9GO3eIM=
+			</data>
+		</dict>
+		<key>Headers/BorderView.swift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wvpl85MmCDKFTN7J8N3qf+IZ4d0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rD50ZqrciL3szAmtmV+VOGIczxRVQY5YcgEMghWy5vo=
 			</data>
 		</dict>
 		<key>Headers/MBaseSDK-Swift.h</key>
@@ -120,6 +147,39 @@
 			ENivD9xds/KeohHLYU93JzmrMDqcUrwkIehzBOTwh8s=
 			</data>
 		</dict>
+		<key>Headers/RadiusButton.swift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hn1x/Ex1quXq/ZAeLxEFwIhms2Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			4grFiQI35XrMrKA3Ip3mLWdowMjdPgRME3AxwcMYJrs=
+			</data>
+		</dict>
+		<key>Headers/RadiusImageView.swift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gQX1fGH1iRRYfm6KjfLueIFekFY=
+			</data>
+			<key>hash2</key>
+			<data>
+			GIGVr0Qu0jZCg/Ui2sswfwOhDi+2D06dlFOHfhRH3L4=
+			</data>
+		</dict>
+		<key>Headers/RadiusView.swift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			owrxxNi0ASGr+0LYQnOXDxgcDqo=
+			</data>
+			<key>hash2</key>
+			<data>
+			wsDia16ggDP1yEsa0JAsy3PHkrkX8WNuGE68GUQm7mE=
+			</data>
+		</dict>
 		<key>LICENSE</key>
 		<dict>
 			<key>hash</key>
@@ -135,77 +195,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sFxltwzAu1rg6vnDP7YbK1/zW5c=
+			KFyIuPHZQ7OG0/b5UfE+nvZFyR0=
 			</data>
 			<key>hash2</key>
 			<data>
-			iv74Pozw1XxY0I86B1Uzxuspnaw4hPFjwbqjiXhMUWg=
+			ExzVdbRotmLE06xYs8boEERIVAL+4DcFr2iD8tTfHGk=
 			</data>
 		</dict>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZW1vRVG3n+qUhA+IGSkcLIJxsKw=
+			QRirdttWsJQLXVjO/wtBvJ0RtPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHIYpEyhGU8KzvqazgVORzru+U7lrQDF3ftpNv+Rj2g=
+			Pbj9wr9WQN1uCGGC/To0yko+LKbDnCoDfOq7Cwrxj8o=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ykAi0GlBW0XfFxTIMYI+w3r1f0=
+			jF9r/8UCCb33/4BaNCq4u44hZ6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			MyJ/4DaidG4ilyWMvIvCIPTvu9YJdRzxOQW/WEYH9Qo=
+			zIPpHhhBqzpNtzvx2G0Sh29mGym3RQA7zmWbdkG+kwE=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H6y+sIwlGtoYfHiBYLZqZQULJjM=
+			1fq0Z2dv/tAaY5tbRpoyr1sWZ2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nki+acnwq9pQ9Un6yIs5hbaEjekxCUWJEcDBKSpMhxA=
+			9o25uoMbnayvtq1VATELKzSwPW64fdrDqeymyqB0ugk=
 			</data>
 		</dict>
 		<key>MBDirectoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pUobqrF8Ml4jv32lP8TAEX5Ilj4=
+			uDkNVqI+9N2V+q33EYfiDg039HA=
 			</data>
 			<key>hash2</key>
 			<data>
-			q3OFtunPc93tujgUZndokOtkYf6K8kKpkiKCDKa9UWE=
+			dRkNYf1XPY8jrZKTYGaUwFBQ1BDA7NGTYbTkupLSVvA=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M/06Uom1yAEw3LVQ4ZCPJczWt4o=
+			FVoZV7dDi0gjP+d3J8Iu8tCZZKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			YzvkvfPGp8jQ9ZXlr5UU5NugjgxbLKC+JbBJeEA3Udk=
+			nWxEbovHzO/P8NuZaVUniPtgip/q2J6lBQdTBJkFcpI=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cEwnOCYaEY0R5GMxbuFLhO5Lp3Q=
+			nnizTYdVmPbS4RNpS26RroKRdv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+FRWndNMydGCsz8KZFNeufHfVcz7AHwRx0NdYRxWIIA=
+			Pgj7TJguOnE+0VYykobIFFaOpKZFRPt51hzlH9fpJ1c=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
