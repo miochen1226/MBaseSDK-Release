@@ -241,10 +241,15 @@ SWIFT_CLASS("_TtC8MBaseSDK17AnimatedImageView")
 
 
 
+
+SWIFT_PROTOCOL("_TtP8MBaseSDK10DFProtocal_")
+@protocol DFProtocal
+@end
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC8MBaseSDK10BaseDataVC")
-@interface BaseDataVC : UIViewController
+@interface BaseDataVC : UIViewController <DFProtocal>
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -313,7 +318,7 @@ SWIFT_CLASS("_TtC8MBaseSDK10BasePageVC")
 
 
 SWIFT_CLASS("_TtC8MBaseSDK13BaseTableCell")
-@interface BaseTableCell : UITableViewCell
+@interface BaseTableCell : UITableViewCell <DFProtocal>
 - (void)awakeFromNib;
 - (void)layoutSubviews;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
@@ -338,6 +343,7 @@ SWIFT_CLASS("_TtC8MBaseSDK10BorderView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MBaseSDK10LayoutTool")
