@@ -94,10 +94,10 @@ Pod::Spec.new do |spec|
   #spec.source_files  = "Classes/*.{h,m,swift}"
   #spec.source_files  = "MBaseSDK/Public/*.swift"
   #spec.exclude_files = "Classes/Exclude"
-  spec.header_mappings_dir = "MBaseSDK/Public"
-  spec.vendored_frameworks = "MBaseSDK/frameworks/MBaseSDK.framework"
+  #spec.header_mappings_dir = "MBaseSDK/Public"
+  spec.vendored_frameworks = "MBaseSDK/frameworks/MBaseSDK.framework","MBaseSDK/Public"
 
-  spec.public_header_files = "MBaseSDK/Public/*.swift"	
+  #spec.public_header_files = "MBaseSDK/Public/MBaseHeader.swift"	
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
