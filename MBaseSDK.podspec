@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.14"
+  spec.version      = "1.0.15"
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,8 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "Classes/*.{h,m,swift}"
   #spec.source_files  = "MBaseSDK/Public/*.swift"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
+  spec.header_mappings_dir = "MBaseSDK/Public"
   spec.vendored_frameworks = "MBaseSDK/frameworks/MBaseSDK.framework"
 
   spec.public_header_files = "MBaseSDK/Public/*.swift"	
