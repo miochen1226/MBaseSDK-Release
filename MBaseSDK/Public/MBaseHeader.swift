@@ -26,6 +26,9 @@ class BaseListVC: BaseVC {
 }
 class BaseTableCell: UITableViewCell {}
 class BaseTableHeader: BaseVC {}
+class BaseAutoHeightVC: BaseVC {
+    @IBOutlet weak var viewContent: UIView?
+}
 
 //Collection
 class BaseCollectionVC: BaseVC {
