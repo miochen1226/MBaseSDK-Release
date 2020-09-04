@@ -242,6 +242,14 @@ SWIFT_CLASS("_TtC8MBaseSDK17AnimatedImageView")
 
 
 
+SWIFT_PROTOCOL("_TtP8MBaseSDK19ShowLoadingDelegate_")
+@protocol ShowLoadingDelegate
+@optional
+- (void)doAppendShowLoadingVC;
+- (void)doRemoveShowLoadingVC;
+@end
+
+
 SWIFT_PROTOCOL("_TtP8MBaseSDK10DFProtocal_")
 @protocol DFProtocal
 @end
@@ -257,7 +265,7 @@ SWIFT_CLASS("_TtC8MBaseSDK10BaseDataVC")
 
 
 SWIFT_CLASS("_TtC8MBaseSDK6BaseVC")
-@interface BaseVC : BaseDataVC
+@interface BaseVC : BaseDataVC <ShowLoadingDelegate>
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
@@ -469,6 +477,7 @@ SWIFT_CLASS("_TtC8MBaseSDK10RadiusView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
