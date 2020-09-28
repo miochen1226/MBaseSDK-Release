@@ -6,7 +6,7 @@
 	<dict>
 		<key>BaseHolderVC.nib</key>
 		<data>
-		HHhCy2O9xFveA6h41Arb1cCfj+U=
+		HvTdWJOEfky3j3CUCdaSLHAlTiU=
 		</data>
 		<key>Headers/BorderView.swift</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qpSLbn12ytETaLokDIOqziBktQU=
+		mQPkflGDV2X+N3Vqsaev1ukTdRw=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -42,39 +42,39 @@
 		</data>
 		<key>MBDemoPageViewerVC.nib/objects-11.0+.nib</key>
 		<data>
-		wFY6/eJvy/NFWkBiKVNqIM+4gs4=
+		+aaJa8gT2ked776flozmWJw/j0Y=
 		</data>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<data>
-		hEBH9YoiXKXDKlSNEnrg0cw2Jcw=
+		T3540fY9eSI/cY+p4UorIRVhxDo=
 		</data>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<data>
-		d7URl9IEvKRh77JP5mmgWdic38U=
+		8gsOmN1vSY9POcGlVvaPVFn0ZSY=
 		</data>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<data>
-		eQCllW55/1WXvu9/hULZRaDOQO8=
+		3mA5x8joTpMHFVw6CI6zTTfsqy0=
 		</data>
 		<key>MBDirectoryCell.nib</key>
 		<data>
-		0wzDtBcsPG9MBGJTZjELkL27Udw=
+		VA3kx8ylxqOI+ikYhLAD/nUD/QQ=
 		</data>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<data>
-		NbJg+AScqYc0wq2f1WRC+C8JinU=
+		qIaWIAxf/M2zHFnwlOX7l3MN9gM=
 		</data>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<data>
-		CMpTpdWpOv5GfL58i7mWYk1a/AY=
+		owB7Xyv/HIgjk4xYbTsEH8naI+U=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		lWfvo2PXMlYVTvPNX5YleYpFiJo=
+		iP2lGGv64gxhSEkWKV5bCwTHAGY=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		lWfvo2PXMlYVTvPNX5YleYpFiJo=
+		iP2lGGv64gxhSEkWKV5bCwTHAGY=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		N2yX5Wd3oFsWrexg9SXctm56o8E=
+		wyi4A9y8pmCgb9iWtI7s4NV7ve8=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		N2yX5Wd3oFsWrexg9SXctm56o8E=
+		wyi4A9y8pmCgb9iWtI7s4NV7ve8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HHhCy2O9xFveA6h41Arb1cCfj+U=
+			HvTdWJOEfky3j3CUCdaSLHAlTiU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+dhdr4OnTDvA5j0hqoK5CzsTR275dm4HeRW4E/ORwtY=
+			JRRyc2z2EFDDOtKEMHSOQdpAQ8jywogAz4IGVrTDa3M=
 			</data>
 		</dict>
 		<key>Headers/BorderView.swift</key>
@@ -195,99 +195,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wFY6/eJvy/NFWkBiKVNqIM+4gs4=
+			+aaJa8gT2ked776flozmWJw/j0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			giiJNXY9leOeu3aEa4KmMhtEflFUHdSYpxs/w4y0Xm8=
+			iXbfu0/e5225Z3zUO8uklkuoqdOY0rEdBTl/yoQyU1U=
 			</data>
 		</dict>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hEBH9YoiXKXDKlSNEnrg0cw2Jcw=
+			T3540fY9eSI/cY+p4UorIRVhxDo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dd5MHrz1rw8gPy54lgOlRQdk6V4wnp6gG1OXEvVxaRU=
+			NONGUiqTZorl5Z7Rld6O/sBD/XvtirE9sWMNrKUUrsk=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d7URl9IEvKRh77JP5mmgWdic38U=
+			8gsOmN1vSY9POcGlVvaPVFn0ZSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z5rQmae1iSZNbu4xL6YUGdZbnissT5SlPrV48NJUxTo=
+			x9VjFdD9Jmy2YzuM4zsWe3VXeKd5B8ORdHaxeJ2pBDE=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eQCllW55/1WXvu9/hULZRaDOQO8=
+			3mA5x8joTpMHFVw6CI6zTTfsqy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GwccGmTKu3G4J2Asad/JtBFST1g2uFfMjiqne+i22E8=
+			zfooGDx6Td1G7cp0ofe+njLnyJeITbfpwIJH591sufw=
 			</data>
 		</dict>
 		<key>MBDirectoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0wzDtBcsPG9MBGJTZjELkL27Udw=
+			VA3kx8ylxqOI+ikYhLAD/nUD/QQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EdAcTXsQ6lvVhYPV0PFMcp20g1UkHH5AZiZhLY5Vlm0=
+			dNkdt9tF3Z8wIp5cX7mW1aeJGhJkSaJ54db8uZGAAH4=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbJg+AScqYc0wq2f1WRC+C8JinU=
+			qIaWIAxf/M2zHFnwlOX7l3MN9gM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QK9R6uJx8KHkFasVb5u9a+Gy1DPb+lCnOOremqt80S4=
+			B4rJxtMLQvJamaDyQIKom3jDy9B5MnJh/Bf0jfINY4g=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CMpTpdWpOv5GfL58i7mWYk1a/AY=
+			owB7Xyv/HIgjk4xYbTsEH8naI+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			2FBM0BlL8JA1GEdVbjZeVaEwaLMhyM9691bozULmK6k=
+			t9jflJ/DSb1oyy9r+2tiaxHqaPh83E9kb+nYXYaaexw=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lWfvo2PXMlYVTvPNX5YleYpFiJo=
+			iP2lGGv64gxhSEkWKV5bCwTHAGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			W29CG7V5XJOmZmqNf7+Zxh5dOChXK0YHSAQsrSGvaPQ=
+			kjLopuKH+y9RWF9th2p7DzvUELcCD6T76N1Nl9l47QQ=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lWfvo2PXMlYVTvPNX5YleYpFiJo=
+			iP2lGGv64gxhSEkWKV5bCwTHAGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			W29CG7V5XJOmZmqNf7+Zxh5dOChXK0YHSAQsrSGvaPQ=
+			kjLopuKH+y9RWF9th2p7DzvUELcCD6T76N1Nl9l47QQ=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -305,11 +305,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N2yX5Wd3oFsWrexg9SXctm56o8E=
+			wyi4A9y8pmCgb9iWtI7s4NV7ve8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gW3tgKszQf2Z1tJzRfbgG794X3hCREIfG+MLLMPzxpA=
+			ZKg1vuyI8FgqOkBgHVZBv9jUAS9dzE8xgNK0o7aMR7s=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftdoc</key>
@@ -327,11 +327,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N2yX5Wd3oFsWrexg9SXctm56o8E=
+			wyi4A9y8pmCgb9iWtI7s4NV7ve8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gW3tgKszQf2Z1tJzRfbgG794X3hCREIfG+MLLMPzxpA=
+			ZKg1vuyI8FgqOkBgHVZBv9jUAS9dzE8xgNK0o7aMR7s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
