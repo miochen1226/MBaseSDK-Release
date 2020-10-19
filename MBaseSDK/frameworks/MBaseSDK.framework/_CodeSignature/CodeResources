@@ -6,7 +6,7 @@
 	<dict>
 		<key>BaseHolderVC.nib</key>
 		<data>
-		HvTdWJOEfky3j3CUCdaSLHAlTiU=
+		MJrIQ6pg+NxKOSSDRZgTtrzL67k=
 		</data>
 		<key>Headers/BorderView.swift</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MBaseSDK-Swift.h</key>
 		<data>
-		svZTher35bcRy088BhXTMzfsToE=
+		i66Vh2+2N8wCuHff9Z0qnv5zsgs=
 		</data>
 		<key>Headers/MBaseSDK.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mQPkflGDV2X+N3Vqsaev1ukTdRw=
+		LPA6ECEj3SRHQuf1rySPnI5oM8s=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -42,55 +42,55 @@
 		</data>
 		<key>MBDemoPageViewerVC.nib/objects-11.0+.nib</key>
 		<data>
-		+aaJa8gT2ked776flozmWJw/j0Y=
+		KXwZ3BPI1bL+pq0ZrXH+TjHuTbM=
 		</data>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<data>
-		T3540fY9eSI/cY+p4UorIRVhxDo=
+		eaCgDEZuIwfPc93f6lBAiIhpE8Y=
 		</data>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<data>
-		8gsOmN1vSY9POcGlVvaPVFn0ZSY=
+		alNGUSgdU9A7lvJr6ynMr/VkLxI=
 		</data>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<data>
-		3mA5x8joTpMHFVw6CI6zTTfsqy0=
+		m9zwTdxL3oIT+ki4QUxWhGwxHKI=
 		</data>
 		<key>MBDirectoryCell.nib</key>
 		<data>
-		VA3kx8ylxqOI+ikYhLAD/nUD/QQ=
+		nwMcQSDzU5UcBOUn7i0NtnoSZ98=
 		</data>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<data>
-		qIaWIAxf/M2zHFnwlOX7l3MN9gM=
+		/YeygkxRElfZHYvp9Q627rMuBcY=
 		</data>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<data>
-		owB7Xyv/HIgjk4xYbTsEH8naI+U=
+		7u4BMkja4bGZtsuOIaSMtHekQts=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		iP2lGGv64gxhSEkWKV5bCwTHAGY=
+		V6xIQtBUjYjtf309PwzMM8XucF8=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		iP2lGGv64gxhSEkWKV5bCwTHAGY=
+		V6xIQtBUjYjtf309PwzMM8XucF8=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		x3kwCrADpDKBclE4ZXiVSqmP0ec=
+		jWiU+tiYr0/cL1Nqm1o7C57ZLZM=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wyi4A9y8pmCgb9iWtI7s4NV7ve8=
+		K17GFNZVvRWKxC3hjHxx4CEwBCw=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		x3kwCrADpDKBclE4ZXiVSqmP0ec=
+		jWiU+tiYr0/cL1Nqm1o7C57ZLZM=
 		</data>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		wyi4A9y8pmCgb9iWtI7s4NV7ve8=
+		K17GFNZVvRWKxC3hjHxx4CEwBCw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HvTdWJOEfky3j3CUCdaSLHAlTiU=
+			MJrIQ6pg+NxKOSSDRZgTtrzL67k=
 			</data>
 			<key>hash2</key>
 			<data>
-			JRRyc2z2EFDDOtKEMHSOQdpAQ8jywogAz4IGVrTDa3M=
+			evnf/q6fsLPcQTIaR3/jVcs2wNWTEQ40r3R1ckjsH/I=
 			</data>
 		</dict>
 		<key>Headers/BorderView.swift</key>
@@ -129,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			svZTher35bcRy088BhXTMzfsToE=
+			i66Vh2+2N8wCuHff9Z0qnv5zsgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			QIvbSu6S4U/DOgchLyj3skci5wDQbKsnkL5mrlfIr/o=
+			CNNBeSxtwcS5bRof5i2cgabjebIqszkHnqmR0W6Q4eQ=
 			</data>
 		</dict>
 		<key>Headers/MBaseSDK.h</key>
@@ -195,143 +195,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+aaJa8gT2ked776flozmWJw/j0Y=
+			KXwZ3BPI1bL+pq0ZrXH+TjHuTbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			iXbfu0/e5225Z3zUO8uklkuoqdOY0rEdBTl/yoQyU1U=
+			d4zIHTdOiPePQ3KXNsj7UyL7jPW/58R5/8jk2AiQRW4=
 			</data>
 		</dict>
 		<key>MBDemoPageViewerVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T3540fY9eSI/cY+p4UorIRVhxDo=
+			eaCgDEZuIwfPc93f6lBAiIhpE8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NONGUiqTZorl5Z7Rld6O/sBD/XvtirE9sWMNrKUUrsk=
+			1ZWBQ3uy5EcSBcec2EBRRlePzlsDlmSQkNAfuaHQdpw=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8gsOmN1vSY9POcGlVvaPVFn0ZSY=
+			alNGUSgdU9A7lvJr6ynMr/VkLxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			x9VjFdD9Jmy2YzuM4zsWe3VXeKd5B8ORdHaxeJ2pBDE=
+			xtIXT+Hp2eWHREbOvehLX80veylD0LqrDZCP4aDGx3M=
 			</data>
 		</dict>
 		<key>MBDemoStageCellHeader.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3mA5x8joTpMHFVw6CI6zTTfsqy0=
+			m9zwTdxL3oIT+ki4QUxWhGwxHKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zfooGDx6Td1G7cp0ofe+njLnyJeITbfpwIJH591sufw=
+			RxEkV3NJRFhrVRcXDkyUOx2SnZeGgNa4/FyOudv2RvE=
 			</data>
 		</dict>
 		<key>MBDirectoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VA3kx8ylxqOI+ikYhLAD/nUD/QQ=
+			nwMcQSDzU5UcBOUn7i0NtnoSZ98=
 			</data>
 			<key>hash2</key>
 			<data>
-			dNkdt9tF3Z8wIp5cX7mW1aeJGhJkSaJ54db8uZGAAH4=
+			X8tlwFsOmSRiXNz7lSxxg0l4y6+HOkV+XUdA5MMrWAY=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qIaWIAxf/M2zHFnwlOX7l3MN9gM=
+			/YeygkxRElfZHYvp9Q627rMuBcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			B4rJxtMLQvJamaDyQIKom3jDy9B5MnJh/Bf0jfINY4g=
+			Xf3FQksUxVatBHC+pkIzbTNSxaJvcNKj6wt47ThfEuk=
 			</data>
 		</dict>
 		<key>MBDirectoryVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			owB7Xyv/HIgjk4xYbTsEH8naI+U=
+			7u4BMkja4bGZtsuOIaSMtHekQts=
 			</data>
 			<key>hash2</key>
 			<data>
-			t9jflJ/DSb1oyy9r+2tiaxHqaPh83E9kb+nYXYaaexw=
+			Ivo8lxlwy8ldwLpI/Y0A7uuJtOc9GGcq2smBDBy53dI=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iP2lGGv64gxhSEkWKV5bCwTHAGY=
+			V6xIQtBUjYjtf309PwzMM8XucF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kjLopuKH+y9RWF9th2p7DzvUELcCD6T76N1Nl9l47QQ=
+			lGiMC5Uv3xpQ0HmhAF86W7IKhAGUZkMrwvJ7qEPV64k=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iP2lGGv64gxhSEkWKV5bCwTHAGY=
+			V6xIQtBUjYjtf309PwzMM8XucF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kjLopuKH+y9RWF9th2p7DzvUELcCD6T76N1Nl9l47QQ=
+			lGiMC5Uv3xpQ0HmhAF86W7IKhAGUZkMrwvJ7qEPV64k=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x3kwCrADpDKBclE4ZXiVSqmP0ec=
+			jWiU+tiYr0/cL1Nqm1o7C57ZLZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cWhnW4E9q6V0SyMRFMIrNqFmdYOvRdk8DOYxXzLRMIQ=
+			NADWwUyRJPouyb5KpSM+uwJhtTN8Cv3zx41UaJQCJm4=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wyi4A9y8pmCgb9iWtI7s4NV7ve8=
+			K17GFNZVvRWKxC3hjHxx4CEwBCw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZKg1vuyI8FgqOkBgHVZBv9jUAS9dzE8xgNK0o7aMR7s=
+			eq5/vGvGfoYVRz5EXpoDoD2+LBCtpZxvXo5g7feyVOs=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x3kwCrADpDKBclE4ZXiVSqmP0ec=
+			jWiU+tiYr0/cL1Nqm1o7C57ZLZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cWhnW4E9q6V0SyMRFMIrNqFmdYOvRdk8DOYxXzLRMIQ=
+			NADWwUyRJPouyb5KpSM+uwJhtTN8Cv3zx41UaJQCJm4=
 			</data>
 		</dict>
 		<key>Modules/MBaseSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wyi4A9y8pmCgb9iWtI7s4NV7ve8=
+			K17GFNZVvRWKxC3hjHxx4CEwBCw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZKg1vuyI8FgqOkBgHVZBv9jUAS9dzE8xgNK0o7aMR7s=
+			eq5/vGvGfoYVRz5EXpoDoD2+LBCtpZxvXo5g7feyVOs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
