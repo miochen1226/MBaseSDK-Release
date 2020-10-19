@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.27"
+  spec.version      = "1.0.28"
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
   # This description is used to generate tags and improve search results.
@@ -97,7 +97,11 @@ Pod::Spec.new do |spec|
   #spec.header_mappings_dir = "MBaseSDK/Public"
   spec.vendored_frameworks = "MBaseSDK/frameworks/MBaseSDK.framework"
 
-  #spec.public_header_files = "MBaseSDK/Public/MBaseHeader.swift"	
+  #spec.public_header_files = "MBaseSDK/Public/MBaseHeader.swift"
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }	
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
