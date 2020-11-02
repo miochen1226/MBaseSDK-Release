@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.35"
+  spec.version      = "1.0.36"
   spec.swift_version = '4.2'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -116,6 +116,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  spec.resources = "MBaseSDK/**/*.{xib}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
   #spec.preserve_paths = "MBaseSDK/Public/MBaseHeader.swift"
