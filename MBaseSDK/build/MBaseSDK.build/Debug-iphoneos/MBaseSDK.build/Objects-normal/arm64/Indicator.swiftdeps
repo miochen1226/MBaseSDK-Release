@@ -1,0 +1,468 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IndicatorView"
+- "IndicatorType"
+- "Indicator"
+- "IndicatorSizeStrategy"
+- "ActivityIndicator"
+- "ImageIndicator"
+provides-nominal:
+- "8MBaseSDK13IndicatorTypeO"
+- "8MBaseSDK9IndicatorP"
+- "8MBaseSDK21IndicatorSizeStrategyO"
+- "8MBaseSDK17ActivityIndicatorC"
+- "8MBaseSDK14ImageIndicatorC"
+provides-member:
+- ["8MBaseSDK13IndicatorTypeO", ""]
+- ["8MBaseSDK9IndicatorP", ""]
+- ["8MBaseSDK21IndicatorSizeStrategyO", ""]
+- ["8MBaseSDK17ActivityIndicatorC", ""]
+- ["8MBaseSDK14ImageIndicatorC", ""]
+- ["8MBaseSDK9IndicatorP", "centerOffset"]
+- ["8MBaseSDK9IndicatorP", "sizeStrategy"]
+provides-dynamic-lookup:
+- "activityIndicatorView"
+- "animatedImageIndicatorView"
+- "animatingCount"
+- "sizeStrategy"
+- "startAnimatingView"
+- "stopAnimatingView"
+- "view"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "-"
+- "=="
+- !private "??"
+- "ActivityIndicator"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- "CGSize"
+- "Data"
+- "DefaultImageProcessor"
+- "FloatLiteralType"
+- "ImageIndicator"
+- "ImageProcessor"
+- "Indicator"
+- "IndicatorSizeStrategy"
+- "IndicatorType"
+- "IndicatorView"
+- "IntegerLiteralType"
+- "KFCrossPlatformImageView"
+- "KingfisherParsedOptionsInfo"
+- "UIActivityIndicatorView"
+- "UIView"
+- !private "activityIndicatorView"
+- !private "animatedImageIndicatorView"
+- !private "animatingCount"
+- !private "max"
+depends-member:
+- ["8MBaseSDK17ActivityIndicatorC", "IndicatorSizeStrategy"]
+- ["8MBaseSDK17ActivityIndicatorC", "IndicatorView"]
+- ["8MBaseSDK17ActivityIndicatorC", "KFCrossPlatformImageView"]
+- ["8MBaseSDK17ActivityIndicatorC", "UIActivityIndicatorView"]
+- ["8MBaseSDK17ActivityIndicatorC", ""]
+- !private ["8MBaseSDK17ActivityIndicatorC", "activityIndicatorView"]
+- !private ["8MBaseSDK17ActivityIndicatorC", "animatingCount"]
+- ["8MBaseSDK17ActivityIndicatorC", "centerOffset"]
+- ["8MBaseSDK17ActivityIndicatorC", "deinit"]
+- ["8MBaseSDK17ActivityIndicatorC", "init"]
+- !private ["8MBaseSDK17ActivityIndicatorC", "max"]
+- ["8MBaseSDK17ActivityIndicatorC", "sizeStrategy"]
+- ["8MBaseSDK17ActivityIndicatorC", "startAnimatingView"]
+- ["8MBaseSDK17ActivityIndicatorC", "stopAnimatingView"]
+- ["8MBaseSDK17ActivityIndicatorC", "view"]
+- ["So15CALayerDelegateP", "Style"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "contentMode"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["So7CGPointV", "zero"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "contentMode"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["So17UIViewContentModeV", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "contentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "contentMode"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["Se", "zero"]
+- ["8MBaseSDK21DefaultImageProcessorV", ""]
+- !private ["8MBaseSDK21DefaultImageProcessorV", "default"]
+- !private ["SE", "zero"]
+- !private ["SQ", "Style"]
+- !private ["SQ", ""]
+- !private ["SQ", "center"]
+- !private ["SQ", "contentMode"]
+- !private ["SQ", "gray"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "medium"]
+- !private ["SQ", "startAnimating"]
+- !private ["SQ", "stopAnimating"]
+- !private ["SQ", "zero"]
+- !private ["SH", "Style"]
+- !private ["SH", "center"]
+- !private ["SH", "contentMode"]
+- !private ["SH", "gray"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "medium"]
+- !private ["SH", "startAnimating"]
+- !private ["SH", "stopAnimating"]
+- ["8MBaseSDK14ImageIndicatorC", "Data"]
+- !private ["8MBaseSDK14ImageIndicatorC", "DefaultImageProcessor"]
+- ["8MBaseSDK14ImageIndicatorC", "ImageProcessor"]
+- ["8MBaseSDK14ImageIndicatorC", "IndicatorView"]
+- ["8MBaseSDK14ImageIndicatorC", "KFCrossPlatformImageView"]
+- ["8MBaseSDK14ImageIndicatorC", "KingfisherParsedOptionsInfo"]
+- ["8MBaseSDK14ImageIndicatorC", ""]
+- !private ["8MBaseSDK14ImageIndicatorC", "animatedImageIndicatorView"]
+- ["8MBaseSDK14ImageIndicatorC", "centerOffset"]
+- ["8MBaseSDK14ImageIndicatorC", "deinit"]
+- ["8MBaseSDK14ImageIndicatorC", "init"]
+- ["8MBaseSDK14ImageIndicatorC", "sizeStrategy"]
+- ["8MBaseSDK14ImageIndicatorC", "startAnimatingView"]
+- ["8MBaseSDK14ImageIndicatorC", "stopAnimatingView"]
+- ["8MBaseSDK14ImageIndicatorC", "view"]
+- !private ["8MBaseSDK16ImageProcessItemO", "data"]
+- !private ["8MBaseSDK14ImageProcessorP", "default"]
+- !private ["8MBaseSDK14ImageProcessorP", "process"]
+- ["8MBaseSDK9IndicatorP", "CGPoint"]
+- !private ["8MBaseSDK9IndicatorP", "DefaultImageProcessor"]
+- ["8MBaseSDK9IndicatorP", "IndicatorSizeStrategy"]
+- ["8MBaseSDK9IndicatorP", "IndicatorView"]
+- ["8MBaseSDK9IndicatorP", "KFCrossPlatformImageView"]
+- !private ["8MBaseSDK9IndicatorP", "KingfisherParsedOptionsInfo"]
+- !private ["8MBaseSDK9IndicatorP", "UIActivityIndicatorView"]
+- ["8MBaseSDK9IndicatorP", ""]
+- !private ["8MBaseSDK9IndicatorP", "activityIndicatorView"]
+- !private ["8MBaseSDK9IndicatorP", "animatedImageIndicatorView"]
+- !private ["8MBaseSDK9IndicatorP", "animatingCount"]
+- ["8MBaseSDK9IndicatorP", "centerOffset"]
+- !private ["8MBaseSDK9IndicatorP", "max"]
+- ["8MBaseSDK9IndicatorP", "sizeStrategy"]
+- ["8MBaseSDK9IndicatorP", "startAnimatingView"]
+- ["8MBaseSDK9IndicatorP", "stopAnimatingView"]
+- ["8MBaseSDK9IndicatorP", "view"]
+- ["8MBaseSDK21IndicatorSizeStrategyO", "CGSize"]
+- ["8MBaseSDK21IndicatorSizeStrategyO", "full"]
+- ["8MBaseSDK21IndicatorSizeStrategyO", "intrinsicSize"]
+- ["8MBaseSDK21IndicatorSizeStrategyO", "size"]
+- ["8MBaseSDK13IndicatorTypeO", "Data"]
+- ["8MBaseSDK13IndicatorTypeO", "Indicator"]
+- ["8MBaseSDK13IndicatorTypeO", "activity"]
+- ["8MBaseSDK13IndicatorTypeO", "custom"]
+- ["8MBaseSDK13IndicatorTypeO", "image"]
+- ["8MBaseSDK13IndicatorTypeO", "none"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "contentMode"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "image"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "init"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "isHidden"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "startAnimating"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "stopAnimating"]
+- !private ["8MBaseSDK27KingfisherParsedOptionsInfoV", "init"]
+- !private ["8MBaseSDK27KingfisherParsedOptionsInfoV", "preloadAllAnimationData"]
+- ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "contentMode"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "contentMode"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "contentMode"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "startAnimating"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- !private ["SY", "center"]
+- !private ["SY", "gray"]
+- !private ["SY", "medium"]
+- ["So28UIActivityIndicatorViewStyleV", ""]
+- !private ["So28UIActivityIndicatorViewStyleV", "gray"]
+- !private ["So28UIActivityIndicatorViewStyleV", "medium"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "startAnimating"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "stopAnimating"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "contentMode"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- ["So23UIActivityIndicatorViewC", "Style"]
+- !private ["So23UIActivityIndicatorViewC", "init"]
+- !private ["So23UIActivityIndicatorViewC", "isHidden"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "contentMode"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- ["So17UICoordinateSpaceP", "Style"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "contentMode"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- ["So13UIDynamicItemP", "Style"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "contentMode"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- ["So11UIFocusItemP", "Style"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "contentMode"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- ["So20UIFocusItemContainerP", "Style"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "contentMode"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "startAnimating"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- !private ["So11UIImageViewC", "contentMode"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "isHidden"]
+- !private ["So11UIImageViewC", "startAnimating"]
+- !private ["So11UIImageViewC", "stopAnimating"]
+- ["So24UILargeContentViewerItemP", "Style"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "contentMode"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "startAnimating"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- ["So11UIResponderC", "Style"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "contentMode"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- ["So23UIUserActivityRestoringP", "Style"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "contentMode"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "startAnimating"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- ["So6UIViewC", "Style"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "contentMode"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+depends-nominal:
+- "8MBaseSDK17ActivityIndicatorC"
+- "So15CALayerDelegateP"
+- !private "So7CGPointV"
+- !private "s7CVarArgP"
+- !private "So17UIViewContentModeV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "8MBaseSDK21DefaultImageProcessorV"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- "8MBaseSDK14ImageIndicatorC"
+- !private "8MBaseSDK16ImageProcessItemO"
+- !private "8MBaseSDK14ImageProcessorP"
+- "8MBaseSDK9IndicatorP"
+- "8MBaseSDK21IndicatorSizeStrategyO"
+- "8MBaseSDK13IndicatorTypeO"
+- !private "8MBaseSDK20KingfisherCompatibleP"
+- !private "8MBaseSDK27KingfisherParsedOptionsInfoV"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- "So28UIActivityIndicatorViewStyleV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So23UIActivityIndicatorViewC"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "48844ad4a13075f739c0a7c853ec0ee0"

@@ -1,0 +1,341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseCollectionCellDelegate"
+- "BaseCollectionCell"
+provides-nominal:
+- "8MBaseSDK26BaseCollectionCellDelegateP"
+- "8MBaseSDK18BaseCollectionCellC"
+provides-member:
+- ["8MBaseSDK26BaseCollectionCellDelegateP", ""]
+- ["8MBaseSDK18BaseCollectionCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "baseDelegate"
+- "dataMap"
+- "layoutSubviews"
+depends-top-level:
+- "BaseCollectionCell"
+- "BaseCollectionCellDelegate"
+- "DFProtocal"
+- !private "DataFillTool"
+- "String"
+- "UICollectionViewCell"
+- "dataMapObj"
+depends-member:
+- ["8MBaseSDK18BaseCollectionCellC", "BaseCollectionCellDelegate"]
+- !private ["8MBaseSDK18BaseCollectionCellC", "DataFillTool"]
+- ["8MBaseSDK18BaseCollectionCellC", "String"]
+- ["8MBaseSDK18BaseCollectionCellC", ""]
+- ["8MBaseSDK18BaseCollectionCellC", "awakeFromNib"]
+- ["8MBaseSDK18BaseCollectionCellC", "baseDelegate"]
+- ["8MBaseSDK18BaseCollectionCellC", "dataMap"]
+- ["8MBaseSDK18BaseCollectionCellC", "deinit"]
+- ["8MBaseSDK18BaseCollectionCellC", "init"]
+- ["8MBaseSDK18BaseCollectionCellC", "layoutSubviews"]
+- ["8MBaseSDK26BaseCollectionCellDelegateP", "dataMapObj"]
+- ["8MBaseSDK26BaseCollectionCellDelegateP", "didBaseCollectionCellButtonClicked"]
+- ["So15CALayerDelegateP", "BaseCollectionCellDelegate"]
+- !private ["So15CALayerDelegateP", "DataFillTool"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "awakeFromNib"]
+- ["So15CALayerDelegateP", "baseDelegate"]
+- ["So15CALayerDelegateP", "dataMap"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "layoutSubviews"]
+- !private ["s7CVarArgP", "DataFillTool"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "checkAndFillData"]
+- !private ["s7CVarArgP", "dataMap"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "DataFillTool"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "checkAndFillData"]
+- !private ["s28CustomDebugStringConvertibleP", "dataMap"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "DataFillTool"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "checkAndFillData"]
+- !private ["s23CustomStringConvertibleP", "dataMap"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["8MBaseSDK10DFProtocalP", "DataFillTool"]
+- ["8MBaseSDK10DFProtocalP", ""]
+- ["8MBaseSDK10DFProtocalP", "awakeFromNib"]
+- ["8MBaseSDK10DFProtocalP", "baseDelegate"]
+- ["8MBaseSDK10DFProtocalP", "dataMap"]
+- ["8MBaseSDK10DFProtocalP", "init"]
+- ["8MBaseSDK10DFProtocalP", "layoutSubviews"]
+- !private ["8MBaseSDK12DataFillToolC", "checkAndFillData"]
+- !private ["SQ", "DataFillTool"]
+- ["SQ", ""]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "checkAndFillData"]
+- !private ["SQ", "dataMap"]
+- !private ["SQ", "layoutSubviews"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["SH", "DataFillTool"]
+- ["SH", ""]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "checkAndFillData"]
+- !private ["SH", "dataMap"]
+- !private ["SH", "layoutSubviews"]
+- ["So8NSCodingP", "BaseCollectionCellDelegate"]
+- !private ["So8NSCodingP", "DataFillTool"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "awakeFromNib"]
+- ["So8NSCodingP", "baseDelegate"]
+- ["So8NSCodingP", "dataMap"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "layoutSubviews"]
+- ["So8NSObjectC", "BaseCollectionCellDelegate"]
+- !private ["So8NSObjectC", "DataFillTool"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "baseDelegate"]
+- !private ["So8NSObjectC", "checkAndFillData"]
+- ["So8NSObjectC", "dataMap"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "layoutSubviews"]
+- ["So8NSObjectP", "BaseCollectionCellDelegate"]
+- !private ["So8NSObjectP", "DataFillTool"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "awakeFromNib"]
+- ["So8NSObjectP", "baseDelegate"]
+- !private ["So8NSObjectP", "checkAndFillData"]
+- ["So8NSObjectP", "dataMap"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "layoutSubviews"]
+- ["So29UIAccessibilityIdentificationP", "BaseCollectionCellDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "DataFillTool"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- ["So29UIAccessibilityIdentificationP", "baseDelegate"]
+- ["So29UIAccessibilityIdentificationP", "dataMap"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- ["So12UIAppearanceP", "BaseCollectionCellDelegate"]
+- !private ["So12UIAppearanceP", "DataFillTool"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "awakeFromNib"]
+- ["So12UIAppearanceP", "baseDelegate"]
+- ["So12UIAppearanceP", "dataMap"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "layoutSubviews"]
+- ["So21UIAppearanceContainerP", "BaseCollectionCellDelegate"]
+- !private ["So21UIAppearanceContainerP", "DataFillTool"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "awakeFromNib"]
+- ["So21UIAppearanceContainerP", "baseDelegate"]
+- ["So21UIAppearanceContainerP", "dataMap"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "layoutSubviews"]
+- ["So24UICollectionReusableViewC", "BaseCollectionCellDelegate"]
+- !private ["So24UICollectionReusableViewC", "DataFillTool"]
+- ["So24UICollectionReusableViewC", "String"]
+- ["So24UICollectionReusableViewC", ""]
+- ["So24UICollectionReusableViewC", "awakeFromNib"]
+- ["So24UICollectionReusableViewC", "baseDelegate"]
+- ["So24UICollectionReusableViewC", "dataMap"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "layoutSubviews"]
+- ["So20UICollectionViewCellC", "BaseCollectionCellDelegate"]
+- !private ["So20UICollectionViewCellC", "DataFillTool"]
+- ["So20UICollectionViewCellC", "String"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "awakeFromNib"]
+- ["So20UICollectionViewCellC", "baseDelegate"]
+- ["So20UICollectionViewCellC", "dataMap"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "layoutSubviews"]
+- ["So17UICoordinateSpaceP", "BaseCollectionCellDelegate"]
+- !private ["So17UICoordinateSpaceP", "DataFillTool"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "awakeFromNib"]
+- ["So17UICoordinateSpaceP", "baseDelegate"]
+- ["So17UICoordinateSpaceP", "dataMap"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "layoutSubviews"]
+- ["So13UIDynamicItemP", "BaseCollectionCellDelegate"]
+- !private ["So13UIDynamicItemP", "DataFillTool"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "awakeFromNib"]
+- ["So13UIDynamicItemP", "baseDelegate"]
+- ["So13UIDynamicItemP", "dataMap"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "layoutSubviews"]
+- ["So18UIFocusEnvironmentP", "BaseCollectionCellDelegate"]
+- !private ["So18UIFocusEnvironmentP", "DataFillTool"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- ["So18UIFocusEnvironmentP", "baseDelegate"]
+- ["So18UIFocusEnvironmentP", "dataMap"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- ["So11UIFocusItemP", "BaseCollectionCellDelegate"]
+- !private ["So11UIFocusItemP", "DataFillTool"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "awakeFromNib"]
+- ["So11UIFocusItemP", "baseDelegate"]
+- ["So11UIFocusItemP", "dataMap"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "layoutSubviews"]
+- ["So20UIFocusItemContainerP", "BaseCollectionCellDelegate"]
+- !private ["So20UIFocusItemContainerP", "DataFillTool"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "awakeFromNib"]
+- ["So20UIFocusItemContainerP", "baseDelegate"]
+- ["So20UIFocusItemContainerP", "dataMap"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "layoutSubviews"]
+- ["So24UILargeContentViewerItemP", "BaseCollectionCellDelegate"]
+- !private ["So24UILargeContentViewerItemP", "DataFillTool"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- ["So24UILargeContentViewerItemP", "baseDelegate"]
+- ["So24UILargeContentViewerItemP", "dataMap"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "layoutSubviews"]
+- ["So30UIPasteConfigurationSupportingP", "BaseCollectionCellDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataFillTool"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- ["So30UIPasteConfigurationSupportingP", "baseDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "dataMap"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- ["So11UIResponderC", "BaseCollectionCellDelegate"]
+- !private ["So11UIResponderC", "DataFillTool"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "baseDelegate"]
+- ["So11UIResponderC", "dataMap"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So30UIResponderStandardEditActionsP", "BaseCollectionCellDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "DataFillTool"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- ["So30UIResponderStandardEditActionsP", "baseDelegate"]
+- ["So30UIResponderStandardEditActionsP", "dataMap"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- ["So18UITraitEnvironmentP", "BaseCollectionCellDelegate"]
+- !private ["So18UITraitEnvironmentP", "DataFillTool"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "awakeFromNib"]
+- ["So18UITraitEnvironmentP", "baseDelegate"]
+- ["So18UITraitEnvironmentP", "dataMap"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "layoutSubviews"]
+- ["So23UIUserActivityRestoringP", "BaseCollectionCellDelegate"]
+- !private ["So23UIUserActivityRestoringP", "DataFillTool"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- ["So23UIUserActivityRestoringP", "baseDelegate"]
+- ["So23UIUserActivityRestoringP", "dataMap"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- ["So6UIViewC", "BaseCollectionCellDelegate"]
+- !private ["So6UIViewC", "DataFillTool"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "baseDelegate"]
+- ["So6UIViewC", "dataMap"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataFillTool"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkAndFillData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DataFillTool"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkAndFillData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataMap"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "DataFillTool"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataMap"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+depends-nominal:
+- "8MBaseSDK18BaseCollectionCellC"
+- "8MBaseSDK26BaseCollectionCellDelegateP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "8MBaseSDK10DFProtocalP"
+- !private "8MBaseSDK12DataFillToolC"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84c5a7abd019638d60124a0342dabe40"

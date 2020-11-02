@@ -1,0 +1,454 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MBDirectoryCell"
+provides-nominal:
+- "8MBaseSDK15MBDirectoryCellC"
+provides-member:
+- ["8MBaseSDK15MBDirectoryCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "layoutSubviews"
+- "setSelected"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "BaseTableCell"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MBDirectoryCell"
+- !private "StringLiteralType"
+depends-member:
+- ["8MBaseSDK13BaseTableCellC", "Bool"]
+- ["8MBaseSDK13BaseTableCellC", ""]
+- ["8MBaseSDK13BaseTableCellC", "awakeFromNib"]
+- !private ["8MBaseSDK13BaseTableCellC", "contentView"]
+- !private ["8MBaseSDK13BaseTableCellC", "dataMap"]
+- ["8MBaseSDK13BaseTableCellC", "init"]
+- ["8MBaseSDK13BaseTableCellC", "layoutSubviews"]
+- ["8MBaseSDK13BaseTableCellC", "setSelected"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "alpha"]
+- ["So15CALayerDelegateP", "awakeFromNib"]
+- ["So15CALayerDelegateP", "baseDelegate"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- ["So15CALayerDelegateP", "cornerRadius"]
+- ["So15CALayerDelegateP", "dataMap"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "layoutSubviews"]
+- ["So15CALayerDelegateP", "sepratorHeight"]
+- ["So15CALayerDelegateP", "sepratorHeightConstraint"]
+- ["So15CALayerDelegateP", "setSelected"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "dataMap"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "dataMap"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "dataMap"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["8MBaseSDK10DFProtocalP", ""]
+- ["8MBaseSDK10DFProtocalP", "awakeFromNib"]
+- ["8MBaseSDK10DFProtocalP", "baseDelegate"]
+- !private ["8MBaseSDK10DFProtocalP", "contentView"]
+- ["8MBaseSDK10DFProtocalP", "cornerRadius"]
+- ["8MBaseSDK10DFProtocalP", "dataMap"]
+- ["8MBaseSDK10DFProtocalP", "init"]
+- ["8MBaseSDK10DFProtocalP", "layoutSubviews"]
+- ["8MBaseSDK10DFProtocalP", "sepratorHeight"]
+- ["8MBaseSDK10DFProtocalP", "sepratorHeightConstraint"]
+- ["8MBaseSDK10DFProtocalP", "setSelected"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "contentView"]
+- !private ["SQ", "dataMap"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "alpha"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "contentView"]
+- !private ["SH", "dataMap"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "subscript"]
+- ["8MBaseSDK15MBDirectoryCellC", "Bool"]
+- ["8MBaseSDK15MBDirectoryCellC", ""]
+- ["8MBaseSDK15MBDirectoryCellC", "awakeFromNib"]
+- !private ["8MBaseSDK15MBDirectoryCellC", "contentView"]
+- !private ["8MBaseSDK15MBDirectoryCellC", "dataMap"]
+- ["8MBaseSDK15MBDirectoryCellC", "deinit"]
+- ["8MBaseSDK15MBDirectoryCellC", "init"]
+- ["8MBaseSDK15MBDirectoryCellC", "layoutSubviews"]
+- ["8MBaseSDK15MBDirectoryCellC", "setSelected"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "alpha"]
+- ["So8NSCodingP", "awakeFromNib"]
+- ["So8NSCodingP", "baseDelegate"]
+- !private ["So8NSCodingP", "contentView"]
+- ["So8NSCodingP", "cornerRadius"]
+- ["So8NSCodingP", "dataMap"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "layoutSubviews"]
+- ["So8NSCodingP", "sepratorHeight"]
+- ["So8NSCodingP", "sepratorHeightConstraint"]
+- ["So8NSCodingP", "setSelected"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "alpha"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "contentView"]
+- !private ["So8NSObjectC", "dataMap"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "layoutSubviews"]
+- ["So8NSObjectC", "setSelected"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "alpha"]
+- ["So8NSObjectP", "awakeFromNib"]
+- ["So8NSObjectP", "baseDelegate"]
+- !private ["So8NSObjectP", "contentView"]
+- ["So8NSObjectP", "cornerRadius"]
+- ["So8NSObjectP", "dataMap"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "layoutSubviews"]
+- ["So8NSObjectP", "sepratorHeight"]
+- ["So8NSObjectP", "sepratorHeightConstraint"]
+- ["So8NSObjectP", "setSelected"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- ["So29UIAccessibilityIdentificationP", "baseDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- ["So29UIAccessibilityIdentificationP", "cornerRadius"]
+- ["So29UIAccessibilityIdentificationP", "dataMap"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- ["So29UIAccessibilityIdentificationP", "sepratorHeight"]
+- ["So29UIAccessibilityIdentificationP", "sepratorHeightConstraint"]
+- ["So29UIAccessibilityIdentificationP", "setSelected"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "alpha"]
+- ["So12UIAppearanceP", "awakeFromNib"]
+- ["So12UIAppearanceP", "baseDelegate"]
+- !private ["So12UIAppearanceP", "contentView"]
+- ["So12UIAppearanceP", "cornerRadius"]
+- ["So12UIAppearanceP", "dataMap"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "layoutSubviews"]
+- ["So12UIAppearanceP", "sepratorHeight"]
+- ["So12UIAppearanceP", "sepratorHeightConstraint"]
+- ["So12UIAppearanceP", "setSelected"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- ["So21UIAppearanceContainerP", "awakeFromNib"]
+- ["So21UIAppearanceContainerP", "baseDelegate"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- ["So21UIAppearanceContainerP", "cornerRadius"]
+- ["So21UIAppearanceContainerP", "dataMap"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "layoutSubviews"]
+- ["So21UIAppearanceContainerP", "sepratorHeight"]
+- ["So21UIAppearanceContainerP", "sepratorHeightConstraint"]
+- ["So21UIAppearanceContainerP", "setSelected"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- ["So17UICoordinateSpaceP", "awakeFromNib"]
+- ["So17UICoordinateSpaceP", "baseDelegate"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- ["So17UICoordinateSpaceP", "cornerRadius"]
+- ["So17UICoordinateSpaceP", "dataMap"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "layoutSubviews"]
+- ["So17UICoordinateSpaceP", "sepratorHeight"]
+- ["So17UICoordinateSpaceP", "sepratorHeightConstraint"]
+- ["So17UICoordinateSpaceP", "setSelected"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "alpha"]
+- ["So13UIDynamicItemP", "awakeFromNib"]
+- ["So13UIDynamicItemP", "baseDelegate"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- ["So13UIDynamicItemP", "cornerRadius"]
+- ["So13UIDynamicItemP", "dataMap"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "layoutSubviews"]
+- ["So13UIDynamicItemP", "sepratorHeight"]
+- ["So13UIDynamicItemP", "sepratorHeightConstraint"]
+- ["So13UIDynamicItemP", "setSelected"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- ["So18UIFocusEnvironmentP", "baseDelegate"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- ["So18UIFocusEnvironmentP", "cornerRadius"]
+- ["So18UIFocusEnvironmentP", "dataMap"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- ["So18UIFocusEnvironmentP", "sepratorHeight"]
+- ["So18UIFocusEnvironmentP", "sepratorHeightConstraint"]
+- ["So18UIFocusEnvironmentP", "setSelected"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "alpha"]
+- ["So11UIFocusItemP", "awakeFromNib"]
+- ["So11UIFocusItemP", "baseDelegate"]
+- !private ["So11UIFocusItemP", "contentView"]
+- ["So11UIFocusItemP", "cornerRadius"]
+- ["So11UIFocusItemP", "dataMap"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "layoutSubviews"]
+- ["So11UIFocusItemP", "sepratorHeight"]
+- ["So11UIFocusItemP", "sepratorHeightConstraint"]
+- ["So11UIFocusItemP", "setSelected"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- ["So20UIFocusItemContainerP", "awakeFromNib"]
+- ["So20UIFocusItemContainerP", "baseDelegate"]
+- !private ["So20UIFocusItemContainerP", "contentView"]
+- ["So20UIFocusItemContainerP", "cornerRadius"]
+- ["So20UIFocusItemContainerP", "dataMap"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "layoutSubviews"]
+- ["So20UIFocusItemContainerP", "sepratorHeight"]
+- ["So20UIFocusItemContainerP", "sepratorHeightConstraint"]
+- ["So20UIFocusItemContainerP", "setSelected"]
+- ["So27UIGestureRecognizerDelegateP", "Bool"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- ["So27UIGestureRecognizerDelegateP", "baseDelegate"]
+- !private ["So27UIGestureRecognizerDelegateP", "contentView"]
+- ["So27UIGestureRecognizerDelegateP", "cornerRadius"]
+- ["So27UIGestureRecognizerDelegateP", "dataMap"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "layoutSubviews"]
+- ["So27UIGestureRecognizerDelegateP", "sepratorHeight"]
+- ["So27UIGestureRecognizerDelegateP", "sepratorHeightConstraint"]
+- ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "alpha"]
+- ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- ["So24UILargeContentViewerItemP", "baseDelegate"]
+- !private ["So24UILargeContentViewerItemP", "contentView"]
+- ["So24UILargeContentViewerItemP", "cornerRadius"]
+- ["So24UILargeContentViewerItemP", "dataMap"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "layoutSubviews"]
+- ["So24UILargeContentViewerItemP", "sepratorHeight"]
+- ["So24UILargeContentViewerItemP", "sepratorHeightConstraint"]
+- ["So24UILargeContentViewerItemP", "setSelected"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- ["So30UIPasteConfigurationSupportingP", "baseDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- ["So30UIPasteConfigurationSupportingP", "cornerRadius"]
+- ["So30UIPasteConfigurationSupportingP", "dataMap"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- ["So30UIPasteConfigurationSupportingP", "sepratorHeight"]
+- ["So30UIPasteConfigurationSupportingP", "sepratorHeightConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "alpha"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "contentView"]
+- !private ["So11UIResponderC", "dataMap"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "setSelected"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- ["So30UIResponderStandardEditActionsP", "baseDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- ["So30UIResponderStandardEditActionsP", "cornerRadius"]
+- ["So30UIResponderStandardEditActionsP", "dataMap"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- ["So30UIResponderStandardEditActionsP", "sepratorHeight"]
+- ["So30UIResponderStandardEditActionsP", "sepratorHeightConstraint"]
+- ["So30UIResponderStandardEditActionsP", "setSelected"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- !private ["So15UITableViewCellC", "contentView"]
+- !private ["So15UITableViewCellC", "dataMap"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "layoutSubviews"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- ["So18UITraitEnvironmentP", "awakeFromNib"]
+- ["So18UITraitEnvironmentP", "baseDelegate"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- ["So18UITraitEnvironmentP", "cornerRadius"]
+- ["So18UITraitEnvironmentP", "dataMap"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "layoutSubviews"]
+- ["So18UITraitEnvironmentP", "sepratorHeight"]
+- ["So18UITraitEnvironmentP", "sepratorHeightConstraint"]
+- ["So18UITraitEnvironmentP", "setSelected"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- ["So23UIUserActivityRestoringP", "baseDelegate"]
+- !private ["So23UIUserActivityRestoringP", "contentView"]
+- ["So23UIUserActivityRestoringP", "cornerRadius"]
+- ["So23UIUserActivityRestoringP", "dataMap"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- ["So23UIUserActivityRestoringP", "sepratorHeight"]
+- ["So23UIUserActivityRestoringP", "sepratorHeightConstraint"]
+- ["So23UIUserActivityRestoringP", "setSelected"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "alpha"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "contentView"]
+- !private ["So6UIViewC", "dataMap"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "setSelected"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alpha"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataMap"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataMap"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+depends-nominal:
+- "8MBaseSDK13BaseTableCellC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "8MBaseSDK10DFProtocalP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- "8MBaseSDK15MBDirectoryCellC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7b6abfffe3702fcd72cde5e719f8d63"

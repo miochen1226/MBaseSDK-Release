@@ -1,0 +1,10 @@
+framework module MBaseSDK {
+  umbrella header "MBaseSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MBaseSDK.__Swift {
+    exclude header "MBaseSDK-Swift.h"
+}

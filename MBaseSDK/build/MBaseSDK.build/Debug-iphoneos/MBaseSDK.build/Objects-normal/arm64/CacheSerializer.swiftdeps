@@ -1,0 +1,203 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CacheSerializer"
+- "DefaultCacheSerializer"
+provides-nominal:
+- "8MBaseSDK15CacheSerializerP"
+- "8MBaseSDK22DefaultCacheSerializerV"
+provides-member:
+- ["8MBaseSDK15CacheSerializerP", ""]
+- ["8MBaseSDK22DefaultCacheSerializerV", ""]
+- ["8MBaseSDK15CacheSerializerP", "image"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CacheSerializer"
+- "Data"
+- "DefaultCacheSerializer"
+- "FloatLiteralType"
+- "KFCrossPlatformImage"
+- "KingfisherOptionsInfo"
+- "KingfisherParsedOptionsInfo"
+- !private "KingfisherWrapper"
+- !private "compressionQuality"
+- !private "image"
+- !private "preferCacheOriginalData"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "kf"]
+- !private ["s7CVarArgP", "kf"]
+- !private ["8MBaseSDK19CacheCostCalculableP", "kf"]
+- ["8MBaseSDK15CacheSerializerP", "Data"]
+- ["8MBaseSDK15CacheSerializerP", "DefaultCacheSerializer"]
+- ["8MBaseSDK15CacheSerializerP", "KFCrossPlatformImage"]
+- ["8MBaseSDK15CacheSerializerP", "KingfisherOptionsInfo"]
+- ["8MBaseSDK15CacheSerializerP", "KingfisherParsedOptionsInfo"]
+- !private ["8MBaseSDK15CacheSerializerP", "KingfisherWrapper"]
+- ["8MBaseSDK15CacheSerializerP", ""]
+- !private ["8MBaseSDK15CacheSerializerP", "compressionQuality"]
+- ["8MBaseSDK15CacheSerializerP", "data"]
+- ["8MBaseSDK15CacheSerializerP", "image"]
+- ["8MBaseSDK15CacheSerializerP", "init"]
+- !private ["8MBaseSDK15CacheSerializerP", "preferCacheOriginalData"]
+- !private ["Sl", ""]
+- !private ["Sl", "kf"]
+- !private ["10Foundation15ContiguousBytesP", "kf"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- !private ["s17CustomReflectableP", "kf"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- !private ["10Foundation4DataV", ""]
+- !private ["10Foundation4DataV", "kf"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "kf"]
+- !private ["8MBaseSDK17DataTransformableP", "kf"]
+- !private ["Se", "kf"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "Bool"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "CGFloat"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "Data"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "DefaultCacheSerializer"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "KFCrossPlatformImage"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "KingfisherParsedOptionsInfo"]
+- !private ["8MBaseSDK22DefaultCacheSerializerV", "KingfisherWrapper"]
+- ["8MBaseSDK22DefaultCacheSerializerV", ""]
+- ["8MBaseSDK22DefaultCacheSerializerV", "compressionQuality"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "data"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "default"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "image"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "init"]
+- ["8MBaseSDK22DefaultCacheSerializerV", "preferCacheOriginalData"]
+- !private ["SE", "kf"]
+- !private ["SQ", ""]
+- !private ["SQ", "kf"]
+- !private ["SQ", "unknown"]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "kf"]
+- !private ["SH", "unknown"]
+- !private ["8MBaseSDK11ImageFormatO", "unknown"]
+- !private ["8MBaseSDK20KingfisherCompatibleP", "kf"]
+- !private ["8MBaseSDK25KingfisherCompatibleValueP", "kf"]
+- !private ["8MBaseSDK27KingfisherParsedOptionsInfoV", "imageCreatingOptions"]
+- !private ["8MBaseSDK27KingfisherParsedOptionsInfoV", "init"]
+- !private ["8MBaseSDK17KingfisherWrapperV", "data"]
+- !private ["8MBaseSDK17KingfisherWrapperV", "image"]
+- !private ["8MBaseSDK17KingfisherWrapperV", "imageFormat"]
+- !private ["SM", ""]
+- !private ["SM", "kf"]
+- !private ["10Foundation19MutableDataProtocolP", "kf"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "kf"]
+- !private ["So21NSItemProviderReadingP", "kf"]
+- !private ["So21NSItemProviderWritingP", "kf"]
+- !private ["So8NSObjectC", "kf"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "kf"]
+- !private ["So14NSSecureCodingP", "kf"]
+- !private ["8MBaseSDK11PlaceholderP", "kf"]
+- !private ["Sk", ""]
+- !private ["Sk", "kf"]
+- !private ["Sm", ""]
+- !private ["Sm", "kf"]
+- !private ["10Foundation20ReferenceConvertibleP", "kf"]
+- !private ["ST", ""]
+- !private ["ST", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So7UIImageC", ""]
+- !private ["So7UIImageC", "kf"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kf"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "kf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "kf"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "8MBaseSDK19CacheCostCalculableP"
+- "8MBaseSDK15CacheSerializerP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "8MBaseSDK17DataTransformableP"
+- !private "Se"
+- "8MBaseSDK22DefaultCacheSerializerV"
+- !private "SE"
+- !private "SQ"
+- "s25ExpressibleByFloatLiteralP"
+- !private "SH"
+- !private "8MBaseSDK11ImageFormatO"
+- !private "8MBaseSDK20KingfisherCompatibleP"
+- !private "8MBaseSDK25KingfisherCompatibleValueP"
+- !private "8MBaseSDK27KingfisherParsedOptionsInfoV"
+- !private "8MBaseSDK17KingfisherWrapperV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "8MBaseSDK11PlaceholderP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "536c27241d4f07e65677ce112041d3b2"

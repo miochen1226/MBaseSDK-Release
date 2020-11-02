@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MBDirectoryDataProvider"
+provides-nominal:
+- "8MBaseSDK23MBDirectoryDataProviderC"
+provides-member:
+- ["8MBaseSDK23MBDirectoryDataProviderC", ""]
+provides-dynamic-lookup:
+- "getDataMap"
+- "getSecNode"
+- "getTableData"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MBAuthor"
+- !private "MBAuthorCenter"
+- "MBDirectoryDataProvider"
+- !private "PageFactory"
+- "String"
+- !private "StringLiteralType"
+- "UIDataProvider"
+- "dataMapObj"
+- !private "getSecNode"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "MBAuthorCenter"]
+- !private ["s7CVarArgP", "PageFactory"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataMapObj"]
+- !private ["s7CVarArgP", "getAuthors"]
+- !private ["s7CVarArgP", "getPageInfosByAuthor"]
+- !private ["s7CVarArgP", "getSecNode"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "MBAuthorCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "PageFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataMapObj"]
+- !private ["s28CustomDebugStringConvertibleP", "getAuthors"]
+- !private ["s28CustomDebugStringConvertibleP", "getPageInfosByAuthor"]
+- !private ["s28CustomDebugStringConvertibleP", "getSecNode"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "MBAuthorCenter"]
+- !private ["s23CustomStringConvertibleP", "PageFactory"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataMapObj"]
+- !private ["s23CustomStringConvertibleP", "getAuthors"]
+- !private ["s23CustomStringConvertibleP", "getPageInfosByAuthor"]
+- !private ["s23CustomStringConvertibleP", "getSecNode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "MBAuthorCenter"]
+- !private ["SQ", "PageFactory"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataMapObj"]
+- !private ["SQ", "getAuthors"]
+- !private ["SQ", "getPageInfosByAuthor"]
+- !private ["SQ", "getSecNode"]
+- !private ["SQ", "init"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "MBAuthorCenter"]
+- !private ["SH", "PageFactory"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "dataMapObj"]
+- !private ["SH", "getAuthors"]
+- !private ["SH", "getPageInfosByAuthor"]
+- !private ["SH", "getSecNode"]
+- !private ["SH", "init"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "subscript"]
+- !private ["8MBaseSDK25KingfisherCompatibleValueP", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["8MBaseSDK8MBAuthorC", "getName"]
+- !private ["8MBaseSDK14MBAuthorCenterC", "getAuthors"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "MBAuthor"]
+- !private ["8MBaseSDK23MBDirectoryDataProviderC", "MBAuthorCenter"]
+- !private ["8MBaseSDK23MBDirectoryDataProviderC", "PageFactory"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "String"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", ""]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "dataMapObj"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "deinit"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "getDataMap"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "getSecNode"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "getTableData"]
+- ["8MBaseSDK23MBDirectoryDataProviderC", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["So8NSObjectC", "MBAuthor"]
+- !private ["So8NSObjectC", "MBAuthorCenter"]
+- !private ["So8NSObjectC", "PageFactory"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "dataMapObj"]
+- !private ["So8NSObjectC", "getAuthors"]
+- ["So8NSObjectC", "getDataMap"]
+- !private ["So8NSObjectC", "getPageInfosByAuthor"]
+- ["So8NSObjectC", "getSecNode"]
+- ["So8NSObjectC", "getTableData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectP", "MBAuthor"]
+- !private ["So8NSObjectP", "MBAuthorCenter"]
+- !private ["So8NSObjectP", "PageFactory"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addObserver"]
+- ["So8NSObjectP", "dataMapHandler"]
+- !private ["So8NSObjectP", "dataMapObj"]
+- ["So8NSObjectP", "dataSoueceDelegate"]
+- !private ["So8NSObjectP", "getAuthors"]
+- ["So8NSObjectP", "getDataMap"]
+- !private ["So8NSObjectP", "getPageInfosByAuthor"]
+- ["So8NSObjectP", "getSecNode"]
+- ["So8NSObjectP", "getTableData"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "notifyDataChange"]
+- ["So8NSObjectP", "observers"]
+- ["So8NSObjectP", "removeObserver"]
+- ["So8NSObjectP", "setDataMapHandler"]
+- ["So8NSObjectP", "setTableDataMapHandler"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- ["So8NSObjectP", "tableDataMapHandler"]
+- !private ["8MBaseSDK11PageFactoryC", "getPageInfosByAuthor"]
+- !private ["8MBaseSDK11PageFactoryC", "sharedInstance"]
+- !private ["8MBaseSDK8PageInfoC", "getAuthorName"]
+- !private ["8MBaseSDK8PageInfoC", "getIdentiy"]
+- !private ["8MBaseSDK8PageInfoC", "getImplementClassName"]
+- !private ["8MBaseSDK8PageInfoC", "haveApiImplement"]
+- !private ["8MBaseSDK8PageInfoC", "haveImplement"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["8MBaseSDK14UIDataProviderC", "MBAuthor"]
+- !private ["8MBaseSDK14UIDataProviderC", "MBAuthorCenter"]
+- !private ["8MBaseSDK14UIDataProviderC", "PageFactory"]
+- ["8MBaseSDK14UIDataProviderC", "String"]
+- ["8MBaseSDK14UIDataProviderC", ""]
+- ["8MBaseSDK14UIDataProviderC", "dataMapObj"]
+- ["8MBaseSDK14UIDataProviderC", "getDataMap"]
+- ["8MBaseSDK14UIDataProviderC", "getSecNode"]
+- ["8MBaseSDK14UIDataProviderC", "getTableData"]
+- ["8MBaseSDK14UIDataProviderC", "init"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "MBAuthorCenter"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "PageFactory"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "String"]
+- ["8MBaseSDK22UIDataProviderProtocalP", ""]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "dataMapObj"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "getSecNode"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MBAuthorCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PageFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataMapObj"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAuthors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getPageInfosByAuthor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSecNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MBAuthorCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PageFactory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataMapObj"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getAuthors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getPageInfosByAuthor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSecNode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "8MBaseSDK25KingfisherCompatibleValueP"
+- !private "s25LosslessStringConvertibleP"
+- !private "8MBaseSDK8MBAuthorC"
+- !private "8MBaseSDK14MBAuthorCenterC"
+- "8MBaseSDK23MBDirectoryDataProviderC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "8MBaseSDK11PageFactoryC"
+- !private "8MBaseSDK8PageInfoC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "8MBaseSDK14UIDataProviderC"
+- "8MBaseSDK22UIDataProviderProtocalP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d7fa57b6bbfb9a5f3575ffdeb8e26079"

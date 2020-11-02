@@ -1,0 +1,502 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dataMapObj"
+- "funcGetDataMap"
+- "UIDataProviderProtocal"
+- "UIDataProviderDataSourceProtocal"
+- "UIDataProvider"
+provides-nominal:
+- "8MBaseSDK22UIDataProviderProtocalP"
+- "8MBaseSDK32UIDataProviderDataSourceProtocalP"
+- "8MBaseSDK14UIDataProviderC"
+provides-member:
+- ["8MBaseSDK22UIDataProviderProtocalP", ""]
+- ["8MBaseSDK32UIDataProviderDataSourceProtocalP", ""]
+- ["8MBaseSDK14UIDataProviderC", ""]
+provides-dynamic-lookup:
+- "addObserver"
+- "dataMapHandler"
+- "dataSoueceDelegate"
+- "getDataMap"
+- "getTableData"
+- "notifyDataChange"
+- "observers"
+- "removeObserver"
+- "setDataMapHandler"
+- "setTableDataMapHandler"
+- "tableDataMapHandler"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- !private ">="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseVC"
+- "Bool"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "String"
+- "UIDataProvider"
+- "UIDataProviderDataSourceProtocal"
+- "UIDataProviderProtocal"
+- "dataMapObj"
+- "funcGetDataMap"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "contains"]
+- !private ["10Accelerate0A6BufferP", "firstIndex"]
+- !private ["10Accelerate0A6BufferP", "remove"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "contains"]
+- !private ["10Accelerate0A13MutableBufferP", "firstIndex"]
+- !private ["10Accelerate0A13MutableBufferP", "remove"]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "remove"]
+- ["8MBaseSDK10BaseDataVCC", ""]
+- !private ["8MBaseSDK10BaseDataVCC", "didDataUpdated"]
+- !private ["8MBaseSDK6BaseVCC", ""]
+- !private ["8MBaseSDK6BaseVCC", "didDataUpdated"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "remove"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "dataMapHandler"]
+- !private ["s7CVarArgP", "dataSoueceDelegate"]
+- !private ["s7CVarArgP", "didDataUpdated"]
+- !private ["s7CVarArgP", "firstIndex"]
+- ["s7CVarArgP", "getTableData"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notifyDataChange"]
+- !private ["s7CVarArgP", "observers"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "setDataMapHandler"]
+- !private ["s7CVarArgP", "setTableDataMapHandler"]
+- !private ["s7CVarArgP", "tableDataMapHandler"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "dataMapHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSoueceDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didDataUpdated"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- ["s28CustomDebugStringConvertibleP", "getTableData"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notifyDataChange"]
+- !private ["s28CustomDebugStringConvertibleP", "observers"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "setDataMapHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "setTableDataMapHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "tableDataMapHandler"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "dataMapHandler"]
+- !private ["s23CustomStringConvertibleP", "dataSoueceDelegate"]
+- !private ["s23CustomStringConvertibleP", "didDataUpdated"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- ["s23CustomStringConvertibleP", "getTableData"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notifyDataChange"]
+- !private ["s23CustomStringConvertibleP", "observers"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "setDataMapHandler"]
+- !private ["s23CustomStringConvertibleP", "setTableDataMapHandler"]
+- !private ["s23CustomStringConvertibleP", "tableDataMapHandler"]
+- !private ["8MBaseSDK10DFProtocalP", "didDataUpdated"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "remove"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "remove"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "dataMapHandler"]
+- !private ["SQ", "dataSoueceDelegate"]
+- !private ["SQ", "didDataUpdated"]
+- !private ["SQ", "firstIndex"]
+- ["SQ", "getTableData"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notifyDataChange"]
+- !private ["SQ", "observers"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeObserver"]
+- !private ["SQ", "setDataMapHandler"]
+- !private ["SQ", "setTableDataMapHandler"]
+- !private ["SQ", "tableDataMapHandler"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "contains"]
+- !private ["SH", "dataMapHandler"]
+- !private ["SH", "dataSoueceDelegate"]
+- !private ["SH", "didDataUpdated"]
+- !private ["SH", "firstIndex"]
+- ["SH", "getTableData"]
+- !private ["SH", "main"]
+- !private ["SH", "notifyDataChange"]
+- !private ["SH", "observers"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeObserver"]
+- !private ["SH", "setDataMapHandler"]
+- !private ["SH", "setTableDataMapHandler"]
+- !private ["SH", "tableDataMapHandler"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["So8NSCodingP", "didDataUpdated"]
+- !private ["So26NSExtensionRequestHandlingP", "didDataUpdated"]
+- ["So8NSObjectC", "BaseVC"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIDataProviderDataSourceProtocal"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "dataMapHandler"]
+- ["So8NSObjectC", "dataMapObj"]
+- ["So8NSObjectC", "dataSoueceDelegate"]
+- !private ["So8NSObjectC", "didDataUpdated"]
+- ["So8NSObjectC", "funcGetDataMap"]
+- ["So8NSObjectC", "getDataMap"]
+- ["So8NSObjectC", "getTableData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "notifyDataChange"]
+- ["So8NSObjectC", "observers"]
+- ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setDataMapHandler"]
+- ["So8NSObjectC", "setTableDataMapHandler"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- ["So8NSObjectC", "tableDataMapHandler"]
+- ["So8NSObjectP", "BaseVC"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "UIDataProviderDataSourceProtocal"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "dataMapHandler"]
+- ["So8NSObjectP", "dataMapObj"]
+- ["So8NSObjectP", "dataSoueceDelegate"]
+- !private ["So8NSObjectP", "didDataUpdated"]
+- ["So8NSObjectP", "funcGetDataMap"]
+- ["So8NSObjectP", "getDataMap"]
+- ["So8NSObjectP", "getTableData"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "notifyDataChange"]
+- ["So8NSObjectP", "observers"]
+- ["So8NSObjectP", "removeObserver"]
+- !private ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setDataMapHandler"]
+- ["So8NSObjectP", "setTableDataMapHandler"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So8NSObjectP", "tableDataMapHandler"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "remove"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "remove"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "remove"]
+- !private ["8MBaseSDK19ShowLoadingDelegateP", "didDataUpdated"]
+- !private ["So21UIAppearanceContainerP", "didDataUpdated"]
+- !private ["So18UIContentContainerP", "didDataUpdated"]
+- ["8MBaseSDK14UIDataProviderC", "BaseVC"]
+- !private ["8MBaseSDK14UIDataProviderC", "Bool"]
+- !private ["8MBaseSDK14UIDataProviderC", "DispatchQueue"]
+- !private ["8MBaseSDK14UIDataProviderC", "Int"]
+- ["8MBaseSDK14UIDataProviderC", "UIDataProviderDataSourceProtocal"]
+- ["8MBaseSDK14UIDataProviderC", ""]
+- ["8MBaseSDK14UIDataProviderC", "addObserver"]
+- ["8MBaseSDK14UIDataProviderC", "dataMapHandler"]
+- ["8MBaseSDK14UIDataProviderC", "dataMapObj"]
+- ["8MBaseSDK14UIDataProviderC", "dataSoueceDelegate"]
+- ["8MBaseSDK14UIDataProviderC", "deinit"]
+- ["8MBaseSDK14UIDataProviderC", "funcGetDataMap"]
+- ["8MBaseSDK14UIDataProviderC", "getDataMap"]
+- ["8MBaseSDK14UIDataProviderC", "getTableData"]
+- ["8MBaseSDK14UIDataProviderC", "init"]
+- ["8MBaseSDK14UIDataProviderC", "notifyDataChange"]
+- ["8MBaseSDK14UIDataProviderC", "observers"]
+- ["8MBaseSDK14UIDataProviderC", "removeObserver"]
+- ["8MBaseSDK14UIDataProviderC", "setDataMapHandler"]
+- ["8MBaseSDK14UIDataProviderC", "setTableDataMapHandler"]
+- ["8MBaseSDK14UIDataProviderC", "tableDataMapHandler"]
+- ["8MBaseSDK32UIDataProviderDataSourceProtocalP", "UIDataProvider"]
+- ["8MBaseSDK32UIDataProviderDataSourceProtocalP", "dataMapObj"]
+- ["8MBaseSDK32UIDataProviderDataSourceProtocalP", "getSourceDataMap"]
+- ["8MBaseSDK32UIDataProviderDataSourceProtocalP", "getSourceTableData"]
+- !private ["8MBaseSDK22UIDataProviderDelegateP", "didDataUpdated"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "DispatchQueue"]
+- ["8MBaseSDK22UIDataProviderProtocalP", ""]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "addObserver"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "dataMapHandler"]
+- ["8MBaseSDK22UIDataProviderProtocalP", "dataMapObj"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "dataSoueceDelegate"]
+- ["8MBaseSDK22UIDataProviderProtocalP", "getTableData"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "notifyDataChange"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "observers"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "removeObserver"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "setDataMapHandler"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "setTableDataMapHandler"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "tableDataMapHandler"]
+- !private ["So18UIFocusEnvironmentP", "didDataUpdated"]
+- !private ["So30UIPasteConfigurationSupportingP", "didDataUpdated"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "didDataUpdated"]
+- !private ["So30UIResponderStandardEditActionsP", "didDataUpdated"]
+- !private ["So16UIStateRestoringP", "didDataUpdated"]
+- !private ["So18UITraitEnvironmentP", "didDataUpdated"]
+- !private ["So23UIUserActivityRestoringP", "didDataUpdated"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "didDataUpdated"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataMapHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSoueceDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didDataUpdated"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTableData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notifyDataChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDataMapHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTableDataMapHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableDataMapHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataMapHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataSoueceDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didDataUpdated"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getTableData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notifyDataChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "observers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setDataMapHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setTableDataMapHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableDataMapHandler"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- "8MBaseSDK10BaseDataVCC"
+- !private "8MBaseSDK6BaseVCC"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "8MBaseSDK10DFProtocalP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sk"
+- !private "Sm"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "8MBaseSDK19ShowLoadingDelegateP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- "8MBaseSDK14UIDataProviderC"
+- "8MBaseSDK32UIDataProviderDataSourceProtocalP"
+- !private "8MBaseSDK22UIDataProviderDelegateP"
+- "8MBaseSDK22UIDataProviderProtocalP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9a244f12700c2ed6ed3b936ed7ac3bac"

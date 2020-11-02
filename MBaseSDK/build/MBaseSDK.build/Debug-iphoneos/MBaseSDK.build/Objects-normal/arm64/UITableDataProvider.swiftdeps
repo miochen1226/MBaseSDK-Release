@@ -1,0 +1,476 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UITableDataProviderDelegate"
+- "UITableDataProvider"
+provides-nominal:
+- "8MBaseSDK27UITableDataProviderDelegateP"
+- "8MBaseSDK19UITableDataProviderC"
+- "8MBaseSDK19UITableDataProviderC8ItemPackC"
+provides-member:
+- ["8MBaseSDK27UITableDataProviderDelegateP", ""]
+- ["8MBaseSDK19UITableDataProviderC", ""]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", ""]
+provides-dynamic-lookup:
+- "data"
+- "dataToDataMapObj"
+- "delegate"
+- "deleteAllItems"
+- "deleteItem"
+- "getItems"
+- "getTableData"
+- "insertItem"
+- "itemId"
+- "items"
+- "itemsCount"
+- "nibName"
+- "showEmpty"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Int64"
+- !private "IntegerLiteralType"
+- "ItemPack"
+- "String"
+- "StringLiteralType"
+- "UIDataProvider"
+- "UITableDataProvider"
+- "UITableDataProviderDelegate"
+- "dataMapObj"
+- !private "dataToDataMapObj"
+- !private "delegate"
+- !private "items"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "remove"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "remove"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "remove"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "remove"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "ItemPack"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataMapObj"]
+- !private ["s7CVarArgP", "dataToDataMapObj"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "deleteAllItems"]
+- !private ["s7CVarArgP", "getItems"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertItem"]
+- !private ["s7CVarArgP", "items"]
+- !private ["s7CVarArgP", "notifyDataChange"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "showEmpty"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "ItemPack"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataMapObj"]
+- !private ["s28CustomDebugStringConvertibleP", "dataToDataMapObj"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteAllItems"]
+- !private ["s28CustomDebugStringConvertibleP", "getItems"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertItem"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "notifyDataChange"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "showEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "ItemPack"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataMapObj"]
+- !private ["s23CustomStringConvertibleP", "dataToDataMapObj"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "deleteAllItems"]
+- !private ["s23CustomStringConvertibleP", "getItems"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertItem"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s23CustomStringConvertibleP", "notifyDataChange"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "showEmpty"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "remove"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "remove"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "ItemPack"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataMapObj"]
+- !private ["SQ", "dataToDataMapObj"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "deleteAllItems"]
+- !private ["SQ", "getItems"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertItem"]
+- !private ["SQ", "items"]
+- !private ["SQ", "notifyDataChange"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "showEmpty"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Int64"]
+- !private ["SH", "ItemPack"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "dataMapObj"]
+- !private ["SH", "dataToDataMapObj"]
+- !private ["SH", "delegate"]
+- !private ["SH", "deleteAllItems"]
+- !private ["SH", "getItems"]
+- !private ["SH", "init"]
+- !private ["SH", "insertItem"]
+- !private ["SH", "items"]
+- !private ["SH", "notifyDataChange"]
+- !private ["SH", "remove"]
+- !private ["SH", "showEmpty"]
+- !private ["SH", "subscript"]
+- !private ["s5Int64V", "init"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "String"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "data"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "deinit"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "init"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "itemId"]
+- ["8MBaseSDK19UITableDataProviderC8ItemPackC", "nibName"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Int64"]
+- ["So8NSObjectC", "ItemPack"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UITableDataProviderDelegate"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "dataMapObj"]
+- ["So8NSObjectC", "dataToDataMapObj"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "deleteAllItems"]
+- ["So8NSObjectC", "deleteItem"]
+- ["So8NSObjectC", "getItems"]
+- ["So8NSObjectC", "getTableData"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "insertItem"]
+- ["So8NSObjectC", "items"]
+- ["So8NSObjectC", "itemsCount"]
+- !private ["So8NSObjectC", "notifyDataChange"]
+- ["So8NSObjectC", "showEmpty"]
+- ["So8NSObjectP", "Int64"]
+- ["So8NSObjectP", "ItemPack"]
+- ["So8NSObjectP", "UITableDataProviderDelegate"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataMapObj"]
+- ["So8NSObjectP", "dataToDataMapObj"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "deleteAllItems"]
+- ["So8NSObjectP", "deleteItem"]
+- ["So8NSObjectP", "getItems"]
+- ["So8NSObjectP", "getTableData"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "insertItem"]
+- ["So8NSObjectP", "items"]
+- ["So8NSObjectP", "itemsCount"]
+- !private ["So8NSObjectP", "notifyDataChange"]
+- ["So8NSObjectP", "showEmpty"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "remove"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "remove"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "remove"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["8MBaseSDK14UIDataProviderC", "Bool"]
+- ["8MBaseSDK14UIDataProviderC", "Int64"]
+- ["8MBaseSDK14UIDataProviderC", "ItemPack"]
+- ["8MBaseSDK14UIDataProviderC", "String"]
+- ["8MBaseSDK14UIDataProviderC", "UITableDataProviderDelegate"]
+- ["8MBaseSDK14UIDataProviderC", ""]
+- ["8MBaseSDK14UIDataProviderC", "dataMapObj"]
+- ["8MBaseSDK14UIDataProviderC", "dataToDataMapObj"]
+- ["8MBaseSDK14UIDataProviderC", "delegate"]
+- ["8MBaseSDK14UIDataProviderC", "deleteAllItems"]
+- ["8MBaseSDK14UIDataProviderC", "deleteItem"]
+- ["8MBaseSDK14UIDataProviderC", "getItems"]
+- ["8MBaseSDK14UIDataProviderC", "getTableData"]
+- ["8MBaseSDK14UIDataProviderC", "init"]
+- ["8MBaseSDK14UIDataProviderC", "insertItem"]
+- ["8MBaseSDK14UIDataProviderC", "items"]
+- ["8MBaseSDK14UIDataProviderC", "itemsCount"]
+- !private ["8MBaseSDK14UIDataProviderC", "notifyDataChange"]
+- ["8MBaseSDK14UIDataProviderC", "showEmpty"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "Int64"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "ItemPack"]
+- ["8MBaseSDK22UIDataProviderProtocalP", ""]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "dataMapObj"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "dataToDataMapObj"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "delegate"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "deleteAllItems"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "getItems"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "init"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "insertItem"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "items"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "notifyDataChange"]
+- !private ["8MBaseSDK22UIDataProviderProtocalP", "showEmpty"]
+- ["8MBaseSDK19UITableDataProviderC", "Bool"]
+- ["8MBaseSDK19UITableDataProviderC", "Int64"]
+- ["8MBaseSDK19UITableDataProviderC", "ItemPack"]
+- ["8MBaseSDK19UITableDataProviderC", "String"]
+- ["8MBaseSDK19UITableDataProviderC", "UITableDataProviderDelegate"]
+- ["8MBaseSDK19UITableDataProviderC", ""]
+- ["8MBaseSDK19UITableDataProviderC", "dataMapObj"]
+- ["8MBaseSDK19UITableDataProviderC", "dataToDataMapObj"]
+- ["8MBaseSDK19UITableDataProviderC", "deinit"]
+- ["8MBaseSDK19UITableDataProviderC", "delegate"]
+- ["8MBaseSDK19UITableDataProviderC", "deleteAllItems"]
+- ["8MBaseSDK19UITableDataProviderC", "deleteItem"]
+- ["8MBaseSDK19UITableDataProviderC", "getItems"]
+- ["8MBaseSDK19UITableDataProviderC", "getTableData"]
+- ["8MBaseSDK19UITableDataProviderC", "init"]
+- ["8MBaseSDK19UITableDataProviderC", "insertItem"]
+- !private ["8MBaseSDK19UITableDataProviderC", "items"]
+- ["8MBaseSDK19UITableDataProviderC", "itemsCount"]
+- !private ["8MBaseSDK19UITableDataProviderC", "notifyDataChange"]
+- ["8MBaseSDK19UITableDataProviderC", "showEmpty"]
+- ["8MBaseSDK27UITableDataProviderDelegateP", "String"]
+- ["8MBaseSDK27UITableDataProviderDelegateP", "dataMapObj"]
+- ["8MBaseSDK27UITableDataProviderDelegateP", "emptyCellData"]
+- ["8MBaseSDK27UITableDataProviderDelegateP", "itemObjToCellData"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ItemPack"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataMapObj"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataToDataMapObj"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteAllItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "items"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notifyDataChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int64"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ItemPack"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataMapObj"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataToDataMapObj"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deleteAllItems"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getItems"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "insertItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "items"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notifyDataChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int64V"
+- "8MBaseSDK19UITableDataProviderC8ItemPackC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "8MBaseSDK14UIDataProviderC"
+- "8MBaseSDK22UIDataProviderProtocalP"
+- "8MBaseSDK19UITableDataProviderC"
+- "8MBaseSDK27UITableDataProviderDelegateP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/MBaseSDK/MBaseSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mio/Documents/GIT/MBaseSDK-Release/MBaseSDK/build/MBaseSDK.build/Debug-iphoneos/MBaseSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "74c03f5489d204932ebd1d9f3eaa22a1"
