@@ -25,19 +25,14 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
     
     var alreadyInitial:Bool = false
     var enablePullToUpdate:Bool = false
-    var refreshControl:UIRefreshControl?
-    var baseDataPageInfo:BaseDataPageInfo = BaseDataPageInfo()
-    @objc func refreshData()
+    open var refreshControl:UIRefreshControl?
+    open var baseDataPageInfo:BaseDataPageInfo = BaseDataPageInfo()
+    @objc open func refreshData()
     {
         
     }
     
-    func didDiscountClicked(data: [String : Any])
-    {
-        
-    }
-    
-    override func loadDataViaDataProvider()
+    open override func loadDataViaDataProvider()
     {
         super.loadDataViaDataProvider()
         
@@ -52,7 +47,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         super.didDataUpdated()
     }
     
-    func reloadTableData()
+    open func reloadTableData()
     {
         if(self.dataProvider != nil)
         {
@@ -65,7 +60,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         
     }
     
-    func reloadTableView()
+    open func reloadTableView()
     {
         if(tableView == nil)
         {
@@ -104,7 +99,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return BaseTableHeader.self
     }
     
-    func headerVcForSectoin(_ section:Int)->BaseVC?
+    open func headerVcForSectoin(_ section:Int)->BaseVC?
     {
         let dataMap = self.dataMapForSection(section: section)
         let nibName = dataMap["nibName"] as? String ?? ""
@@ -168,12 +163,12 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         self.alreadyInitial = true
     }
     
-    @objc func backgroundTapped(_ sender: UITapGestureRecognizer)
+    @objc open func backgroundTapped(_ sender: UITapGestureRecognizer)
     {
         self.view.endEditing(true)
     }
     
-    func loadTableDataViaDataProvider()
+    open func loadTableDataViaDataProvider()
     {
         self.tableData = self.dataProvider?.getTableData() ?? [:]
         //let tableData = self.tableData
@@ -186,7 +181,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         //self.tableView?.reloadData()
     }
     
-    func getCellByIdentify(identifier:String,indexPath:IndexPath) -> BaseTableCell? {
+    open func getCellByIdentify(identifier:String,indexPath:IndexPath) -> BaseTableCell? {
         
         if(identifier == "")
         {
@@ -223,7 +218,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return sections[section]["secName"] as? String
     }
     
-    func sectionCount()->Int
+    open func sectionCount()->Int
     {
         if(self.tableData["list"] == nil)
         {
@@ -237,7 +232,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return self.sectionCount()
     }
     
-    func itemCountForSection(section:Int)->Int
+    open func itemCountForSection(section:Int)->Int
     {
         if(self.tableData["list"] == nil)
         {
@@ -248,7 +243,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return listItems.count
     }
     
-    func dataMapForSection(section: Int)->[String:Any]
+    open func dataMapForSection(section: Int)->[String:Any]
     {
         let sections = self.tableData["list"] as! [[String:Any]]
         let section = sections[section]
@@ -268,14 +263,14 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return listItems[indexPath.row]
     }
     
-    var mapAttachedVCs:[String:BaseVC] = [:]
+    open var mapAttachedVCs:[String:BaseVC] = [:]
     
-    func indexPathToString(indexPath:IndexPath)->String
+    open func indexPathToString(indexPath:IndexPath)->String
     {
         return String(indexPath.section) + "_" + String(indexPath.row)
     }
     
-    func getAttachedVcFromCache(indexPath:IndexPath)->BaseVC?
+    open func getAttachedVcFromCache(indexPath:IndexPath)->BaseVC?
     {
         return mapAttachedVCs[indexPathToString(indexPath: indexPath)]
     }
@@ -311,7 +306,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         return attachedVC
     }
     
-    func getAttachedVC(attachedIdentity:String,attachedNibName:String)->BaseVC?
+    open func getAttachedVC(attachedIdentity:String,attachedNibName:String)->BaseVC?
     {
         let implementType = getAttachVcByClassIdentity(attachedIdentity: attachedIdentity)
         let newAttachedVC = implementType?.init(nibName: attachedNibName, bundle: nil) ?? nil
@@ -361,6 +356,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
     open func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         
     }
+    
     open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
     }
@@ -382,7 +378,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         }
     }
     
-    func doFetchListData(){
+    open func doFetchListData(){
         let total = self.baseDataPageInfo.getTotal()
         if(total == 0)
         {
@@ -403,11 +399,11 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         fetchListDataImp()
     }
     
-    func fetchListDataImp(){
+    open func fetchListDataImp(){
         print("fetchListDataImp not implement")
     }
     
-    var tableDataProvider:UITableDataProvider?
+    open var tableDataProvider:UITableDataProvider?
     {
         get{
             return self.dataProvider as? UITableDataProvider

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.37"
+  spec.version      = "1.0.38"
   spec.swift_version = '4.2'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 

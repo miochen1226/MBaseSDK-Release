@@ -15,10 +15,10 @@ public protocol UITableDataProviderDelegate:class{
 
 
 
-class UITableDataProvider: UIDataProvider {
-    var delegate:UITableDataProviderDelegate?
+open class UITableDataProvider: UIDataProvider {
+    open var delegate:UITableDataProviderDelegate?
     
-    class ItemPack
+    open class ItemPack
     {
         var itemId:String = ""
         var data:Any?
@@ -31,47 +31,37 @@ class UITableDataProvider: UIDataProvider {
         }
     }
     
-    init( delegate:UITableDataProviderDelegate) {
+    public init( delegate:UITableDataProviderDelegate) {
         super.init()
         self.delegate = delegate
     }
     
-    private var items:[ItemPack] = []
-    var showEmpty:Bool = false
+    open var items:[ItemPack] = []
+    open var showEmpty:Bool = false
     {
         didSet{
             self.notifyDataChange()
         }
     }
 
-    func deleteAllItems()
+    open func deleteAllItems()
     {
         self.items = []
         self.notifyDataChange()
     }
 
-    func itemsCount()->Int64
+    open func itemsCount()->Int64
     {
         return Int64(self.items.count)
     }
     
-    func insertItem(itemId:String,data:Any,nibName:String)
+    open func insertItem(itemId:String,data:Any,nibName:String)
     {
-        
         let itemPack = ItemPack.init(itemId: itemId, data: data, nibName: nibName)
-        /*
-        var dataInput = dataMapObj()
-        
-        for (key, value) in data {
-            dataInput[key] = value
-        }
-        
-        dataInput["nibName"] = nibName
-        */
         items.append(itemPack)
     }
     
-    func deleteItem(itemId:String)
+    open func deleteItem(itemId:String)
     {
         var index = 0
         for itemPack in items
@@ -86,7 +76,7 @@ class UITableDataProvider: UIDataProvider {
         }
     }
     
-    func getItems()->[dataMapObj]
+    open func getItems()->[dataMapObj]
     {
         var array:[dataMapObj] = []
         for itemPack in items
@@ -96,12 +86,12 @@ class UITableDataProvider: UIDataProvider {
         return array
     }
     
-    func dataToDataMapObj(data:Any?,nibName:String)->dataMapObj
+    open func dataToDataMapObj(data:Any?,nibName:String)->dataMapObj
     {
         return delegate?.itemObjToCellData(data: data,nibName:nibName) ?? dataMapObj()
     }
     
-    override func getTableData() -> [String : Any] {
+    open override func getTableData() -> [String : Any] {
         
         var secArray:[dataMapObj] = []
         var sec_1_node:dataMapObj = ["secName":""]

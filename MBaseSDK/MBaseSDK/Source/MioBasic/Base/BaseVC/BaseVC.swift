@@ -14,7 +14,7 @@ import UIKit
 }
 
 @objc open class BaseVC: BaseDataVC,UIDataProviderDelegate,ShowLoadingDelegate{
-    var showLoadingDelegate:ShowLoadingDelegate? = nil
+    open var showLoadingDelegate:ShowLoadingDelegate? = nil
     public var isLoadingShow:Bool = false
     {
         didSet{
@@ -70,7 +70,7 @@ import UIKit
         self.dataProvider?.addObserver(observer: self)
     }
     
-    var dataInit:dataMapObj?
+    open var dataInit:dataMapObj?
     open func doInit(dataInit:dataMapObj)
     {
         self.dataInit = dataInit
@@ -88,7 +88,7 @@ import UIKit
         super.viewDidAppear(animated)
     }
     
-    func loadDataViaDataProvider()
+    open func loadDataViaDataProvider()
     {
         if(self.dataProvider != nil)
         {
