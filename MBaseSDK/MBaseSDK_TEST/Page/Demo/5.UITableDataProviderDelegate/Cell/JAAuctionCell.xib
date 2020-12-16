@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JAAuctionCell" rowHeight="488" id="KGk-i7-Jjw" customClass="JAAuctionCell" customModule="Jurassic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="589" height="488"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="589" height="488"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JbP-GB-FAe">
+                        <rect key="frame" x="0.0" y="0.0" width="589" height="368"/>
+                        <accessibility key="accessibilityConfiguration" identifier="auctionImage"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="JbP-GB-FAe" secondAttribute="height" multiplier="1.6:1" priority="750" id="bdc-0y-WmE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FU-te-U1q">
+                        <rect key="frame" x="24" y="384" width="541" height="22.5"/>
+                        <accessibility key="accessibilityConfiguration" identifier="auctionDuration"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22.5" id="QYf-9c-fbO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="16"/>
+                        <color key="textColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fes-n9-J2E">
+                        <rect key="frame" x="24" y="416.5" width="541" height="22.5"/>
+                        <accessibility key="accessibilityConfiguration" identifier="auctionTitle"/>
+                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9H-gS-qud">
+                        <rect key="frame" x="24" y="445" width="541" height="18.5"/>
+                        <accessibility key="accessibilityConfiguration" identifier="auctionInfo"/>
+                        <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="13"/>
+                        <color key="textColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfw-aY-jgN">
+                        <rect key="frame" x="0.0" y="0.0" width="83.5" height="38"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPd-s9-qf5">
+                                <rect key="frame" x="24" y="9" width="35.5" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="auctionStatus"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="labelStatus"/>
+                        <constraints>
+                            <constraint firstItem="RPd-s9-qf5" firstAttribute="top" secondItem="sfw-aY-jgN" secondAttribute="top" priority="750" constant="9" id="IaC-N8-Qdr"/>
+                            <constraint firstAttribute="bottom" secondItem="RPd-s9-qf5" secondAttribute="bottom" constant="9" id="OS5-E1-uvw"/>
+                            <constraint firstItem="RPd-s9-qf5" firstAttribute="leading" secondItem="sfw-aY-jgN" secondAttribute="leading" constant="24" id="SI1-s5-lu4"/>
+                            <constraint firstAttribute="trailing" secondItem="RPd-s9-qf5" secondAttribute="trailing" constant="24" id="pvt-gt-4su"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JbP-GB-FAe" firstAttribute="top" secondItem="sfw-aY-jgN" secondAttribute="top" id="1js-TV-4cP"/>
+                    <constraint firstItem="s9H-gS-qud" firstAttribute="trailing" secondItem="fes-n9-J2E" secondAttribute="trailing" id="8ug-qS-YXI"/>
+                    <constraint firstItem="fes-n9-J2E" firstAttribute="leading" secondItem="2FU-te-U1q" secondAttribute="leading" id="AmX-tZ-HC2"/>
+                    <constraint firstItem="JbP-GB-FAe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B8V-ro-O8o"/>
+                    <constraint firstItem="JbP-GB-FAe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FPV-aM-WrS"/>
+                    <constraint firstItem="JbP-GB-FAe" firstAttribute="leading" secondItem="sfw-aY-jgN" secondAttribute="leading" id="aVv-qt-oVW"/>
+                    <constraint firstItem="fes-n9-J2E" firstAttribute="trailing" secondItem="2FU-te-U1q" secondAttribute="trailing" id="bzi-WD-4W0"/>
+                    <constraint firstAttribute="bottom" secondItem="s9H-gS-qud" secondAttribute="bottom" priority="250" constant="30" id="eUM-DR-bZO"/>
+                    <constraint firstItem="s9H-gS-qud" firstAttribute="top" secondItem="fes-n9-J2E" secondAttribute="bottom" constant="6" id="g5Z-4T-z1Z"/>
+                    <constraint firstAttribute="trailing" secondItem="JbP-GB-FAe" secondAttribute="trailing" id="hFn-JT-bAh"/>
+                    <constraint firstItem="2FU-te-U1q" firstAttribute="top" secondItem="JbP-GB-FAe" secondAttribute="bottom" constant="16" id="k8t-VR-bMF"/>
+                    <constraint firstItem="2FU-te-U1q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="lua-w6-0Of"/>
+                    <constraint firstItem="s9H-gS-qud" firstAttribute="leading" secondItem="fes-n9-J2E" secondAttribute="leading" id="nlx-tS-G5q"/>
+                    <constraint firstAttribute="trailing" secondItem="2FU-te-U1q" secondAttribute="trailing" constant="24" id="poQ-HV-I2l"/>
+                    <constraint firstItem="fes-n9-J2E" firstAttribute="top" secondItem="2FU-te-U1q" secondAttribute="bottom" constant="10" id="yPC-9A-8eX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="2FU-te-U1q" id="a09-hd-9lL"/>
+                <outlet property="itemId" destination="s9H-gS-qud" id="7Xz-LM-s7P"/>
+                <outlet property="itemImageView" destination="JbP-GB-FAe" id="vBJ-Pf-rRt"/>
+                <outlet property="nameLabel" destination="fes-n9-J2E" id="E2i-ZG-7ov"/>
+                <outlet property="tagBgView" destination="sfw-aY-jgN" id="5sc-cV-U64"/>
+                <outlet property="tagLabel" destination="RPd-s9-qf5" id="KrH-oB-ilz"/>
+            </connections>
+            <point key="canvasLocation" x="-39.855072463768117" y="98.4375"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="MyBaseListCell" customModule="MBaseTestBed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qc-eL-2KU">
+                        <rect key="frame" x="100" y="10" width="210" height="21"/>
+                        <accessibility key="accessibilityConfiguration" identifier="labelTitle"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="deT-Cu-tqT" customClass="RadiusImageView" customModule="MBaseSDK">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <accessibility key="accessibilityConfiguration" identifier="ivIcon"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="5KA-1h-yUL"/>
+                            <constraint firstAttribute="width" constant="80" id="NB8-Ks-O7j"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzp-UU-Cax">
+                        <rect key="frame" x="100" y="36" width="210" height="20.5"/>
+                        <accessibility key="accessibilityConfiguration" identifier="labelDescript"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="3qc-eL-2KU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="4hc-uw-uki"/>
+                    <constraint firstItem="deT-Cu-tqT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AaH-Ik-Wz5"/>
+                    <constraint firstAttribute="trailing" secondItem="3qc-eL-2KU" secondAttribute="trailing" constant="10" id="JQo-VN-jHO"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Rzp-UU-Cax" secondAttribute="bottom" constant="10" id="STD-LW-Itl"/>
+                    <constraint firstAttribute="trailing" secondItem="Rzp-UU-Cax" secondAttribute="trailing" constant="10" id="Viz-CC-nR6"/>
+                    <constraint firstItem="Rzp-UU-Cax" firstAttribute="top" secondItem="3qc-eL-2KU" secondAttribute="bottom" constant="5" id="gnH-4u-QAX"/>
+                    <constraint firstItem="3qc-eL-2KU" firstAttribute="leading" secondItem="deT-Cu-tqT" secondAttribute="trailing" constant="10" id="jIy-Sd-hKY"/>
+                    <constraint firstItem="deT-Cu-tqT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nBv-Uw-eOB"/>
+                    <constraint firstItem="Rzp-UU-Cax" firstAttribute="leading" secondItem="deT-Cu-tqT" secondAttribute="trailing" constant="10" id="zFX-97-Dnp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.68115942028987" y="127.56696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
