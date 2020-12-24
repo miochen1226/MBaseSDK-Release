@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.39"
+  spec.version      = "1.0.40"
   spec.swift_version = '4.2'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -93,6 +93,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "MBaseSDK/**/*.{h,m,swift}"
+  spec.exclude_files = "MBaseSDK/MBaseSDK_TEST/**/*.{h,m,swift}"
+  
   #spec.source_files  = "Classes/*.{h,m,swift}"
   #spec.source_files  = "MBaseSDK/Public/*.swift"
   #spec.exclude_files = "Classes/Exclude"
