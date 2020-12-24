@@ -35,10 +35,6 @@ class BaseAuctionListVC: BaseListVC {
         self.dataProvider = UITableDataProvider(delegate: self)
     }
 
-    override func cellNameMapForBase() -> [String] {
-        return ["JAAuctionCell","AuctionEmptyWithCheckScheduleCell"]
-    }
-
     override func doInit(dataInit: dataMapObj)
     {
         super.doInit(dataInit: dataInit)

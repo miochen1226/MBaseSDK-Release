@@ -154,6 +154,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         for nibName in cellClassMap
         {
             self.tableView?.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: nibName)
+            self.m_regCellClassMap.append(nibName)
         }
         
         let tapGestureBackground = UITapGestureRecognizer(target: self, action: #selector(self.backgroundTapped(_:)))
@@ -181,6 +182,21 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
         //self.tableView?.reloadData()
     }
     
+    var m_regCellClassMap:[String] = []
+    
+    func dequeReusablecell(identifier: String, indexPath: IndexPath)->BaseTableCell?
+    {
+        if(!self.m_regCellClassMap.contains(identifier))
+        {
+            self.tableView?.register(UINib(nibName: identifier, bundle: nil), forCellReuseIdentifier: identifier)
+            
+            self.m_regCellClassMap.append(identifier)
+        }
+        
+        let cell =  self.tableView?.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? BaseTableCell
+        return cell
+    }
+    
     open func getCellByIdentify(identifier:String,indexPath:IndexPath) -> BaseTableCell? {
         
         if(identifier == "")
@@ -192,12 +208,7 @@ open class BaseListVC: BaseVC,UITableViewDelegate,UITableViewDataSource,BaseTabl
             return cell
         }
         
-        var cell = self.tableView?.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? BaseTableCell
-        
-        if (cell == nil)
-        {
-            cell = (Bundle.main.loadNibNamed(identifier, owner: self, options: nil)?.first) as? BaseTableCell
-        }
+        var cell = self.dequeReusablecell(identifier:identifier, indexPath: indexPath)
         
         if( cell == nil)
         {
