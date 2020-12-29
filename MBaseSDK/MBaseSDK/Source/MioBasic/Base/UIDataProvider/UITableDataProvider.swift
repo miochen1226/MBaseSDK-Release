@@ -29,6 +29,34 @@ open class UITableDataProvider: UIDataProvider {
             self.data = data
             self.nibName = nibName
         }
+        
+        open func getData()->Any?
+        {
+            return data
+        }
+        
+        open func updateData(itemId:String?,data:Any?,nibName:String?)
+        {
+            if(itemId != nil)
+            {
+                self.itemId = itemId!
+                self.needRefresh = true
+            }
+            
+            if(data != nil)
+            {
+                self.data = data!
+                self.needRefresh = true
+            }
+            
+            if(nibName != nil)
+            {
+                self.nibName = nibName!
+                self.needRefresh = true
+            }
+        }
+        
+        public var needRefresh:Bool = false
     }
     
     public init( delegate:UITableDataProviderDelegate) {

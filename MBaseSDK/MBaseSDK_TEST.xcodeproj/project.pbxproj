@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350DB78C2599C4DC00A37107 /* DOTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350DB78A2599C4DC00A37107 /* DOTableViewCell.swift */; };
+		350DB78D2599C4DC00A37107 /* DOTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350DB78B2599C4DC00A37107 /* DOTableViewCell.xib */; };
+		352419512595D2AA00876B44 /* BaseDOListDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524194F2595D2AA00876B44 /* BaseDOListDemoVC.swift */; };
+		352419522595D2AA00876B44 /* BaseDOListDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352419502595D2AA00876B44 /* BaseDOListDemoVC.xib */; };
+		352419552595D49F00876B44 /* BaseDOListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352419532595D49F00876B44 /* BaseDOListVC.swift */; };
+		352419562595D49F00876B44 /* BaseDOListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352419542595D49F00876B44 /* BaseDOListVC.xib */; };
 		358760692588B61D00239EDD /* MyBaseListExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760412588B61C00239EDD /* MyBaseListExVC.swift */; };
 		3587606A2588B61D00239EDD /* MyBaseListExVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 358760422588B61C00239EDD /* MyBaseListExVC.xib */; };
 		3587606B2588B61D00239EDD /* AttachedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760442588B61C00239EDD /* AttachedVC.swift */; };
@@ -58,6 +64,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		350DB78A2599C4DC00A37107 /* DOTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTableViewCell.swift; sourceTree = "<group>"; };
+		350DB78B2599C4DC00A37107 /* DOTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DOTableViewCell.xib; sourceTree = "<group>"; };
+		3524194F2595D2AA00876B44 /* BaseDOListDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDOListDemoVC.swift; sourceTree = "<group>"; };
+		352419502595D2AA00876B44 /* BaseDOListDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDOListDemoVC.xib; sourceTree = "<group>"; };
+		352419532595D49F00876B44 /* BaseDOListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDOListVC.swift; sourceTree = "<group>"; };
+		352419542595D49F00876B44 /* BaseDOListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDOListVC.xib; sourceTree = "<group>"; };
 		358760272588B50500239EDD /* MBaseSDK_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBaseSDK_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358760412588B61C00239EDD /* MyBaseListExVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBaseListExVC.swift; sourceTree = "<group>"; };
 		358760422588B61C00239EDD /* MyBaseListExVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBaseListExVC.xib; sourceTree = "<group>"; };
@@ -108,6 +120,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350DB7892599C4B000A37107 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				350DB78A2599C4DC00A37107 /* DOTableViewCell.swift */,
+				350DB78B2599C4DC00A37107 /* DOTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3524194B2595D19C00876B44 /* 6.BaseDOListDepo */ = {
+			isa = PBXGroup;
+			children = (
+				3524194C2595D1C300876B44 /* BaseDOListVC */,
+				3524194F2595D2AA00876B44 /* BaseDOListDemoVC.swift */,
+				352419502595D2AA00876B44 /* BaseDOListDemoVC.xib */,
+			);
+			path = 6.BaseDOListDepo;
+			sourceTree = "<group>";
+		};
+		3524194C2595D1C300876B44 /* BaseDOListVC */ = {
+			isa = PBXGroup;
+			children = (
+				350DB7892599C4B000A37107 /* Cell */,
+				352419532595D49F00876B44 /* BaseDOListVC.swift */,
+				352419542595D49F00876B44 /* BaseDOListVC.xib */,
+			);
+			path = BaseDOListVC;
+			sourceTree = "<group>";
+		};
 		35875FC72588B06600239EDD = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +191,7 @@
 		3587603E2588B61C00239EDD /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				3524194B2595D19C00876B44 /* 6.BaseDOListDepo */,
 				35DA14042588BF91004FE1E0 /* 5.UITableDataProviderDelegate */,
 				358760492588B61C00239EDD /* 1.BaseVCDemo */,
 				3587605D2588B61C00239EDD /* 2.UIDataProviderDemo */,
@@ -387,7 +429,10 @@
 			files = (
 				35DA14182588C157004FE1E0 /* UITableDataProviderDemoVC.xib in Resources */,
 				3587607A2588B61D00239EDD /* BaseListDemoVC.xib in Resources */,
+				350DB78D2599C4DC00A37107 /* DOTableViewCell.xib in Resources */,
 				35DA14092588BFED004FE1E0 /* BaseAuctionListVC.xib in Resources */,
+				352419522595D2AA00876B44 /* BaseDOListDemoVC.xib in Resources */,
+				352419562595D49F00876B44 /* BaseDOListVC.xib in Resources */,
 				3587606E2588B61D00239EDD /* BaseListWithAttachCellDemoVC.xib in Resources */,
 				35DA14122588C054004FE1E0 /* JAAuctionCell.xib in Resources */,
 				3587607C2588B61D00239EDD /* UIDataProviderDemoVC.xib in Resources */,
@@ -414,16 +459,19 @@
 				3587606D2588B61D00239EDD /* MyBaseListExVC_Data.swift in Sources */,
 				35DA14172588C157004FE1E0 /* UITableDataProviderDemoVC.swift in Sources */,
 				358760812588B61D00239EDD /* AppDelegate.swift in Sources */,
+				352419512595D2AA00876B44 /* BaseDOListDemoVC.swift in Sources */,
 				358760742588B61D00239EDD /* EmptyCell.swift in Sources */,
 				35DA14082588BFED004FE1E0 /* BaseAuctionListVC.swift in Sources */,
 				358760802588B61D00239EDD /* ViewController.swift in Sources */,
 				358760792588B61D00239EDD /* BaseListDemoVC.swift in Sources */,
 				358760772588B61D00239EDD /* MyBaseListCell.swift in Sources */,
 				35DA140F2588C054004FE1E0 /* JAAuctionCell.swift in Sources */,
+				350DB78C2599C4DC00A37107 /* DOTableViewCell.swift in Sources */,
 				3587607D2588B61D00239EDD /* UIDataProviderDemoVC.swift in Sources */,
 				358760722588B61D00239EDD /* MyBaseListVC.swift in Sources */,
 				3587607E2588B61D00239EDD /* SceneDelegate.swift in Sources */,
 				3587607B2588B61D00239EDD /* AuthorDef.swift in Sources */,
+				352419552595D49F00876B44 /* BaseDOListVC.swift in Sources */,
 				358760702588B61D00239EDD /* BaseVCDemoVC.swift in Sources */,
 				3587606F2588B61D00239EDD /* BaseListWithAttachCellDemoVC.swift in Sources */,
 				358760782588B61D00239EDD /* MyBaseListVC_Data.swift in Sources */,

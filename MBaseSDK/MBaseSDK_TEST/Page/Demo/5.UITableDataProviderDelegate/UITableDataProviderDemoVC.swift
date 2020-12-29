@@ -23,10 +23,6 @@ class UITableDataProviderDemoVC: BasePageVC {
         return AuthorDef.Mio
     }
     
-    override class func isDevloping() -> Bool {
-        return true
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
