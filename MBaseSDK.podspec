@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.41"
+  spec.version      = "1.0.42"
   spec.swift_version = '5.0'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -145,6 +145,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Kingfisher", "~> 5.15"
+  spec.dependency "Kingfisher"
 
 end
