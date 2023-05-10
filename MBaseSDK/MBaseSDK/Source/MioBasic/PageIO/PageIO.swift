@@ -13,7 +13,7 @@ open class PageDataTemplate:NSObject{
     open var data:dataMapObj?
 }
 
-public protocol PageIoProtocol:class{
+public protocol PageIoProtocol:AnyObject{
     
     //頁面主動提供的測試情境範本
     //[[identity:"Test_1",data:dataMapObj],[identity:"Test_2",data:dataMapObj]]

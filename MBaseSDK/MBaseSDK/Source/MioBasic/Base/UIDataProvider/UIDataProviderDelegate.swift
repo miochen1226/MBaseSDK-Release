@@ -8,6 +8,6 @@
 
 import UIKit
 
-public protocol UIDataProviderDelegate:class{
+public protocol UIDataProviderDelegate:AnyObject{
     func didDataUpdated()
 }

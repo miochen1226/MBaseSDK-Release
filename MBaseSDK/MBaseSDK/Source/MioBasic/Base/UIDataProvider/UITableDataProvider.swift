@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol UITableDataProviderDelegate:class{
+public protocol UITableDataProviderDelegate:AnyObject{
     func emptyCellData()->dataMapObj
     func itemObjToCellData(data:Any?,nibName:String)->dataMapObj
 }

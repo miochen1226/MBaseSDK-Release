@@ -11,11 +11,11 @@ import UIKit
 public typealias dataMapObj = [String : Any]
 public typealias funcGetDataMap = () -> dataMapObj
 
-public protocol UIDataProviderProtocal:class{
+public protocol UIDataProviderProtocal:AnyObject{
     func getTableData()->dataMapObj
 }
 
-protocol UIDataProviderDataSourceProtocal:class{
+protocol UIDataProviderDataSourceProtocal:AnyObject{
     func getSourceDataMap(_ dataProvider:UIDataProvider)->dataMapObj
     func getSourceTableData(_ dataProvider:UIDataProvider)->dataMapObj
 }
