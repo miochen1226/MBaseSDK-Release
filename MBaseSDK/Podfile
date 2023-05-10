@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-#platform :ios, '16.1'
+# platform :ios, '9.0'
 project 'MBaseSDK.xcodeproj'
 
 target 'MBaseSDK' do
@@ -7,5 +7,5 @@ target 'MBaseSDK' do
   use_frameworks!
 
   # Pods for MBaseSDK
-  pod 'Kingfisher'
+  pod 'Kingfisher', '~> 5.15'
 end

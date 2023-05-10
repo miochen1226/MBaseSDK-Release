@@ -25,7 +25,7 @@ public class MBRuntime {
         }
         return []
     }
-
+    
     public static func subclasses(of `class`: AnyClass) -> [AnyClass] {
         return self.allClasses().filter {
             var ancestor: AnyClass? = $0
