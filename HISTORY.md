@@ -204,7 +204,7 @@
     - BaseTableList實作中也有這部分的實現  在TableViewCell上 由data hash指定要粘貼的VC+所屬data
 - [解決思路]
     - 在 VC_A 中 跟 VC_B 的 view 黏上 CustomerListVC 的view 
-    - 把 CustomerListVC加入 VC_A, VC_B 的childViewCOntroller
+    - 把 CustomerListVC加入 VC_A, VC_B 的childViewController
     
 - [實作內容]
     - 實作掛上VC view 的方法
