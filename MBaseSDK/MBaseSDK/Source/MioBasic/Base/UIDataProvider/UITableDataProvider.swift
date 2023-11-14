@@ -16,7 +16,7 @@ public protocol UITableDataProviderDelegate:AnyObject{
 
 
 open class UITableDataProvider: UIDataProvider {
-    open var delegate:UITableDataProviderDelegate?
+    open weak var delegate:UITableDataProviderDelegate?
     
     open class ItemPack
     {

@@ -14,7 +14,7 @@ import UIKit
 }
 
 @objc open class BaseVC: BaseDataVC,UIDataProviderDelegate,ShowLoadingDelegate{
-    open var showLoadingDelegate:ShowLoadingDelegate? = nil
+    open weak var showLoadingDelegate:ShowLoadingDelegate? = nil
     public var isLoadingShow:Bool = false
     {
         didSet{
