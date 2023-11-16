@@ -15,7 +15,7 @@ public protocol BaseTableCellDelegate {
 
 
 open class BaseTableCell:UITableViewCell,DFProtocal {
-    public var baseDelegate: BaseTableCellDelegate?
+    public weak var baseDelegate: BaseTableCellDelegate?
     open var dataMap: [String : Any] = [:]
     var sepratorHeight:Float = 10
     var cornerRadius:Float = 0
