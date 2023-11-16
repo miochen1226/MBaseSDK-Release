@@ -9,7 +9,7 @@
 import UIKit
 
 
-public protocol BaseTableCellDelegate {
+public protocol BaseTableCellDelegate :AnyObject {
     func didBaseTableCellButtonClicked(data:dataMapObj)
 }
 
