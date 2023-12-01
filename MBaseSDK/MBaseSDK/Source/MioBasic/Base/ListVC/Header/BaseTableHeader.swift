@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol BaseTableHeaderDelegate {
+public protocol BaseTableHeaderDelegate:AnyObject{
     func didHeaderClicked(tag:Int)
     func didHeaderButtonClicked(tag:Int,section:Int)
     func didHeaderButtonClickedWithData(data: [String : Any])
@@ -21,7 +21,7 @@ open class BaseTableHeader: BaseVC {
     }
     
     @IBOutlet weak var viewTabArea:UIView!
-    open var delegate:BaseTableHeaderDelegate?
+    open weak var delegate:BaseTableHeaderDelegate?
     open override func viewDidLoad() {
         super.viewDidLoad()        
         // Do any additional setup after loading the view.

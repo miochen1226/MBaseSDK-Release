@@ -7,13 +7,13 @@
 //
 
 import UIKit
-public protocol BaseCollectionCellDelegate {
-    func didBaseCollectionCellButtonClicked(data:dataMapObj)
+public protocol BaseCollectionCellDelegate : AnyObject {
+    func didBaseCollectionCellButtonClicked(data: dataMapObj)
 }
 
-open class BaseCollectionCell: UICollectionViewCell,DFProtocal {
+open class BaseCollectionCell: UICollectionViewCell, DFProtocal {
     open var dataMap: [String : Any] = [:]
-    public var baseDelegate: BaseCollectionCellDelegate?
+    public weak var baseDelegate: BaseCollectionCellDelegate?
     open override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

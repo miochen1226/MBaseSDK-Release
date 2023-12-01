@@ -1,6 +1,6 @@
 //
 //  RadiusButton.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/3/21.
 //  Copyright © 2019 mio. All rights reserved.
@@ -12,7 +12,8 @@ import UIKit
 @objc open class RadiusButton: UIButton {
     var _borderWidth:CGFloat = 0
     var _enableV:Bool = false
-    @IBInspectable var enableV:Bool {
+    
+    @IBInspectable var enableV: Bool {
         get {
             return _enableV
         }
@@ -22,7 +23,7 @@ import UIKit
         }
     }
     
-    @IBInspectable var borderWidth:CGFloat {
+    @IBInspectable var borderWidth: CGFloat {
         get {
             return _borderWidth
         }
@@ -33,14 +34,12 @@ import UIKit
         }
     }
     
-    @IBInspectable var borderColor:UIColor? {
+    @IBInspectable var borderColor: UIColor? {
         get {
-            if(layer.borderColor != nil)
-            {
+            if layer.borderColor != nil {
                 return UIColor(cgColor: layer.borderColor!)
             }
-            else
-            {
+            else {
                 return UIColor.clear
             }
         }
@@ -60,12 +59,11 @@ import UIKit
         }
     }
     
-    func showWithAnimation()
-    {
-        if(self.isHidden == false)
-        {
+    func showWithAnimation() {
+        if self.isHidden == false {
             return
         }
+        
         DispatchQueue.main.async() {
             self.alpha = 0
             self.isHidden = false
@@ -77,10 +75,9 @@ import UIKit
         }
     }
     
-    open override var isEnabled: Bool{
-        didSet{
-            if(isEnabled)
-            {
+    open override var isEnabled: Bool {
+        didSet {
+            if isEnabled {
                 self.alpha = 1
             }
             else
@@ -92,17 +89,14 @@ import UIKit
     
     open override func layoutSubviews() {
         super.layoutSubviews()
-        if(self.isEnabled)
-        {
+        if self.isEnabled {
             self.layer.borderWidth = _borderWidth
         }
-        else
-        {
+        else {
             self.layer.borderWidth = 0
         }
         
-        if(self._enableV)
-        {
+        if self._enableV {
             centerVertically()
         }
     }
@@ -133,7 +127,7 @@ import UIKit
         self.contentEdgeInsets = UIEdgeInsets(
             top: 18.0,
             left: 0.0,
-            bottom: 18.0,//titleLabelSize.height,
+            bottom: 18.0,
             right: 0.0
         )
     }

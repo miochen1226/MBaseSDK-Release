@@ -1,24 +1,20 @@
 //
 //  BaseCollectionVC.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/3/31.
 //  Copyright © 2019 mio. All rights reserved.
 //
 
 import UIKit
-/*
-protocol BaseCollectionDelegate {
-    func cellNameMapForBase() -> [String]
-    func cellClassIdentifyforIndex(_ indexPath:IndexPath)->String
-}
-*/
 
 open class BaseCollectionVC:
 BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollectionCellDelegate{
+    @IBOutlet public weak var collectionView:UICollectionView!
+    var arrayItems:NSMutableArray = NSMutableArray()
+    var tableData:[String:Any] = [:]
     
-    open func didBaseCollectionCellButtonClicked(data:dataMapObj)
-    {
+    open func didBaseCollectionCellButtonClicked(data:dataMapObj) {
         
     }
     
@@ -32,10 +28,7 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
         return ["BaseCollectionCell"]
     }
     
-    var tableData:[String:Any] = [:]
-    
-    open func getItemCount(section:Int)->Int
-    {
+    open func getItemCount(section: Int) -> Int {
         let sections = self.tableData["list"] as! [[String:Any]]
         let listItems = sections[section]["list"] as! [[String:Any]]
         return listItems.count
@@ -46,16 +39,14 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
     }
     
     open func numberOfSections(in collectionView: UICollectionView) -> Int {
-        if(self.tableData["list"] == nil)
-        {
+        if self.tableData["list"] == nil {
             return 0
         }
         let sections = self.tableData["list"] as! [[String:Any]]
         return sections.count
     }
     
-    open func dataMapForCell(indexPath: IndexPath)->[String:Any]
-    {
+    open func dataMapForCell(indexPath: IndexPath) -> [String:Any] {
         let sections = self.tableData["list"] as! [[String:Any]]
         let listItems = sections[indexPath.section]["list"] as! [[String:Any]]
         return listItems[indexPath.row]
@@ -73,13 +64,11 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
     open func getCellByIdentify(identifier:String,indexPath:IndexPath) -> Any {
         var cell = self.collectionView?.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
         
-        if (cell == nil)
-        {
+        if cell == nil {
             cell = (Bundle.main.loadNibNamed(identifier, owner: self, options: nil)?.first) as? UICollectionViewCell
         }
         
-        if( cell == nil)
-        {
+        if cell == nil {
             cell = (Bundle.main.loadNibNamed("BaseCollectionCell", owner: self, options: nil)?.first) as? UICollectionViewCell
         }
         
@@ -87,20 +76,20 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
     }
     
     open func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-    }
-    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
     }
     
-    @IBOutlet public weak var collectionView:UICollectionView!
-    var arrayItems:NSMutableArray = NSMutableArray()
+    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
+    }
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
         
         self.loadTableDataViaDataProvider()
         
         let cellClassMap = cellNameMapForBase()
-        for nibName in cellClassMap
-        {
+        for nibName in cellClassMap {
             self.collectionView?.register(UINib(nibName: nibName, bundle: nil), forCellWithReuseIdentifier: nibName)
         }
         
@@ -118,13 +107,11 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
         }
     }
     
-    open func loadTableDataViaDataProvider()
-    {
-        if(self.dataProvider == nil)
-        {
+    open func loadTableDataViaDataProvider() {
+        if self.dataProvider == nil {
             return
         }
-        self.tableData = self.dataProvider?.getTableData() ?? [:]//?? FakeDataProvider().getTableData()
+        self.tableData = self.dataProvider?.getTableData() ?? [:]
     }
     
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -135,9 +122,7 @@ BaseVC,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,BaseCollect
         return CGSize(width: 110, height: 110)
     }
     
-    
-    open override func loadDataViaDataProvider()
-    {
+    open override func loadDataViaDataProvider() {
         super.loadDataViaDataProvider()
         self.loadTableDataViaDataProvider()
     }
