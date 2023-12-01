@@ -63,7 +63,6 @@ import UIKit
     
     open override func viewWillAppear(_ animated: Bool) {
         self.dataProvider?.addObserver(observer: self)
-        self.dataProvider?.notifyDataChange()
     }
     
     open var dataInit:dataMapObj?
