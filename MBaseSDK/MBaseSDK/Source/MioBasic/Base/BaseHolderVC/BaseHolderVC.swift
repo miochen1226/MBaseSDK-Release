@@ -1,6 +1,6 @@
 //
 //  BaseHolderVC.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/4/13.
 //  Copyright © 2019 mio. All rights reserved.

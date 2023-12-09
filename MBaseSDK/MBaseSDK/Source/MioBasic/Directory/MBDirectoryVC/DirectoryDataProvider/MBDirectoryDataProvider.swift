@@ -1,9 +1,9 @@
 //
 //  MBDirectoryDataProvider.swift
-//  MBaseTestBed
+//  MBaseSDK
 //
 //  Created by mio on 2020/5/2.
-//  Copyright © 2020 innoorz. All rights reserved.
+//  Copyright © 2020 mio. All rights reserved.
 //
 
 import UIKit
@@ -15,8 +15,7 @@ class MBDirectoryDataProvider: UIDataProvider {
         return data
     }
     
-    func getSecNode(author:MBAuthor)->dataMapObj?
-    {
+    func getSecNode(author: MBAuthor) -> dataMapObj? {
         let pages = PageFactory.sharedInstance.getPageInfosByAuthor(author: author)
         
         let totalCount = pages.count
@@ -24,24 +23,19 @@ class MBDirectoryDataProvider: UIDataProvider {
         
         var sec:[dataMapObj] = []
         
-        if(pages.count == 0)
-        {
+        if pages.count == 0 {
             return nil
         }
         
-        for pageInfo in pages
-        {
+        for pageInfo in pages {
             var dataMap:dataMapObj = [:]
             dataMap["identity"] = pageInfo.getIdentiy()
             dataMap["implementClass"] = pageInfo.getImplementClassName()
             dataMap["haveImplement"] = pageInfo.haveImplement()
             dataMap["haveApiImplement"] = pageInfo.haveApiImplement()
             dataMap["labelAuthor"] = pageInfo.getAuthorName()
-            
-            
             dataMap["nibName"] = "MBDirectoryCell"
-            if(pageInfo.haveImplement())
-            {
+            if pageInfo.haveImplement() {
                 implementCount = implementCount + 1
             }
             sec.append(dataMap)
@@ -59,17 +53,11 @@ class MBDirectoryDataProvider: UIDataProvider {
     }
     
     override func getTableData() -> [String : Any] {
-        
         var tableData:[String:Any] = [:]
-        
         var list:[dataMapObj] = []
-        
-        
-        for author in MBAuthorCenter.getAuthors()
-        {
+        for author in MBAuthorCenter.getAuthors() {
             let secNode = getSecNode(author: author)
-            if(secNode != nil)
-            {
+            if secNode != nil {
                 list.append(secNode!)
             }
         }

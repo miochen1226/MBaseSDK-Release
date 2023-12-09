@@ -1,9 +1,9 @@
 //
 //  MBDirectoryVC.swift
-//  MBaseTestBed
+//  MBaseSDK
 //
 //  Created by mio on 2020/5/2.
-//  Copyright © 2020 innoorz. All rights reserved.
+//  Copyright © 2020 mio. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ public class MBDirectoryVC: BaseListVC {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "DemoPage"
         let bundle = Bundle.init(for: MBDirectoryVC.self)
         let nib = UINib(nibName: "MBDirectoryCell", bundle: bundle)
         self.tableView.register(nib, forCellReuseIdentifier: "MBDirectoryCell")
@@ -21,19 +21,16 @@ public class MBDirectoryVC: BaseListVC {
         self.dataProvider = directoryDataProvider
         
         let developingIdentity = PageFactory.developingIdentity
-        if(developingIdentity != "")
-        {
+        if developingIdentity != "" {
             PageTool.doPushPage(identity: PageFactory.developingIdentity, initData: [:], vc: self, dismissResult: nil,animated: false)
         }
     }
     
-    override open func headerVcForSectoin(_ section:Int)->BaseVC?
-    {
+    override open func headerVcForSectoin(_ section: Int) -> BaseVC? {
         let dataMap = self.dataMapForSection(section: section)
         let nibName = dataMap["nibName"] as? String ?? ""
         
-        if(nibName != "")
-        {
+        if nibName != "" {
             let headerClass:BaseTableHeader.Type = headerVcClass(nibName) as! BaseTableHeader.Type
             let bundle = Bundle.init(for: MBDirectoryVC.self)
             let header = headerClass.init(nibName: nibName, bundle: bundle)
@@ -45,7 +42,7 @@ public class MBDirectoryVC: BaseListVC {
         return headerMap[section]
     }
     
-    public override func cellNameMapForBase()->[String]{
+    public override func cellNameMapForBase() -> [String] {
         return ["MBDirectoryCell"]
     }
     
@@ -62,13 +59,11 @@ public class MBDirectoryVC: BaseListVC {
         let dataMapCell = self.dataMapForCell(indexPath: indexPath)
         
         let haveImplement = dataMapCell["haveImplement"] as? Bool ?? false
-        if(haveImplement == false)
-        {
+        if haveImplement == false {
             return
         }
         
         let identity = dataMapCell["identity"] as! String
-        
         let bundle = Bundle.init(for: MBDirectoryVC.self)
         let demoPageViewerVC = MBDemoPageViewerVC.init(nibName: "MBDemoPageViewerVC", bundle: bundle)
         demoPageViewerVC.identity = identity

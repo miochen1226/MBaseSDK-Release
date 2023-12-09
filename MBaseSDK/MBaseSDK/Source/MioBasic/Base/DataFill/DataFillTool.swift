@@ -1,6 +1,6 @@
 //
 //  BaseDataProtocol.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/3/23.
 //  Copyright © 2019 mio. All rights reserved.

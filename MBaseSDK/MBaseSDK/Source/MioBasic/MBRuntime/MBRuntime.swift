@@ -1,17 +1,15 @@
 //
 //  MBRuntime.swift
-//  MBaseTestBed
+//  MBaseSDK
 //
 //  Created by mio on 2020/5/2.
-//  Copyright © 2020 miochen. All rights reserved.
+//  Copyright © 2020 mio. All rights reserved.
 //
 
 import UIKit
-
 import Foundation
 
 public class MBRuntime {
-    
     public static func allClasses() -> [AnyClass] {
         let numberOfClasses = Int(objc_getClassList(nil, 0))
         if numberOfClasses > 0 {

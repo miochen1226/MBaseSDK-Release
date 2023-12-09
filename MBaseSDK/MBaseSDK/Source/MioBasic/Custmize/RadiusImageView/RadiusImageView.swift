@@ -1,6 +1,6 @@
 //
 //  RadiusImageView.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/3/21.
 //  Copyright © 2019 mio. All rights reserved.

@@ -1,9 +1,9 @@
 //
 //  MBDirectoryCell.swift
-//  MBaseTestBed
+//  MBaseSDK
 //
 //  Created by mio on 2020/5/2.
-//  Copyright © 2020 innoorz. All rights reserved.
+//  Copyright © 2020 mio. All rights reserved.
 //
 
 import UIKit
@@ -23,15 +23,11 @@ class MBDirectoryCell: BaseTableCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         let haveImplement = self.dataMap["haveImplement"] as? Bool ?? false
-        if(haveImplement)
-        {
+        if haveImplement {
             self.contentView.alpha = 1
         }
-        else
-        {
+        else {
             self.contentView.alpha = 0.3
         }
-        
     }
-    
 }

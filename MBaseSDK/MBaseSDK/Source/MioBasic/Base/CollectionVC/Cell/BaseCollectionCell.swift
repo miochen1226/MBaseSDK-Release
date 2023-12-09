@@ -1,6 +1,6 @@
 //
 //  BaseCollectionCell.swift
-//  jourdenessSPA
+//  MBaseSDK
 //
 //  Created by mio on 2019/4/1.
 //  Copyright © 2019 mio. All rights reserved.

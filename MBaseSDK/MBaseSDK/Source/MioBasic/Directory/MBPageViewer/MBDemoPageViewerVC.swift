@@ -12,12 +12,12 @@ public class MBDemoPageViewerVC: BaseVC {
     @IBOutlet weak var viewPageArea:UIView!
     @IBOutlet weak var viewTemplate:UIView!
     @IBOutlet weak var viewTemplateContent:UIView!
-    var identity:String = ""
-    
     @IBOutlet weak var btnTemplate: UIButton!
+    
     var inputTemplates:[PageDataTemplate] = []
     var currentTemplateID:String = ""
     var currentTemplateIndex = 0
+    var identity:String = ""
     public override func viewDidLoad() {
         
         self.dataMap["labelIdentity"] = identity
@@ -31,44 +31,36 @@ public class MBDemoPageViewerVC: BaseVC {
         
         let pageInfo = PageFactory.sharedInstance.getPageInfoByIdentity(identity: identity)
         
-        if(pageInfo != nil)
-        {
+        if pageInfo != nil {
             let nibName = pageInfo!.getNibName()
             let implementType = pageInfo!.getImplementType() ?? nil
             
-            if(implementType != nil)
-            {
+            if implementType != nil {
                 super.appendViewController(type: implementType!, nibName: nibName, controlId: "page_id", to: self.viewPageArea)
-                
-                
+               
                 //讀取pageIO
                 let pageIoProtocol = super.getSubViewControlByID("page_id") as? PageIoProtocol
                 
-                for dataTemplates in pageIoProtocol?.getDataTemplates() ?? []
-                {
+                for dataTemplates in pageIoProtocol?.getDataTemplates() ?? [] {
                     let identity = dataTemplates.name
-                    if(identity != "")
-                    {
+                    if identity != "" {
                         self.inputTemplates.append(dataTemplates)
                     }
                 }
                 
-                if(self.inputTemplates.count > 0)
-                {
+                if self.inputTemplates.count > 0 {
                     self.btnTemplate.isHidden = false
                     initTemplatePicker()
                     applyDataTemplate(index: 0)
                 }
-                else
-                {
+                else {
                     self.btnTemplate.isHidden = true
                 }
             }
         }
     }
     
-    func initTemplatePicker()
-    {
+    public func initTemplatePicker() {
         let myPickerView = UIPickerView(frame: CGRect(
             x: 0, y: 0,
             width: viewTemplateContent.frame.size.width, height: viewTemplateContent.frame.size.height))
@@ -78,39 +70,30 @@ public class MBDemoPageViewerVC: BaseVC {
         LayoutTool.applyFitParent(view: self.viewTemplateContent, viewSub: myPickerView)
     }
 
-    func applyDataTemplate(index:Int)
-    {
+    public func applyDataTemplate(index: Int) {
         let templateName = self.inputTemplates[index].name
         self.dataMap["btnTemplate"] = templateName
         
         let pageIoProtocol = super.getSubViewControlByID("page_id") as? PageIoProtocol
         
-        let inputData = self.inputTemplates[index].data
-        if(inputData != nil)
-        {
-            pageIoProtocol?.applyDataTemplate(data: inputData!)
-        }
+        let pageDataTemplate = self.inputTemplates[index]
+        pageIoProtocol?.applyDataTemplate(pageDataTemplate: pageDataTemplate)
         
         super.getSubViewControlByID("page_id")?.viewDidLayoutSubviews()
-        
-        
         self.viewDidLayoutSubviews()
     }
     
-    @IBAction func didTemplateBtnClicked(_ sender:Any)
-    {
+    @IBAction func didTemplateBtnClicked(_ sender: Any) {
         self.viewTemplate.isHidden = false
     }
     
-    @IBAction func didTemplateApplyBtnClicked(_ sender:Any)
-    {
+    @IBAction func didTemplateApplyBtnClicked(_ sender: Any) {
         self.viewTemplate.isHidden = true
         self.applyDataTemplate(index: self.currentTemplateIndex)
     }
 }
 
-extension MBDemoPageViewerVC:UIPickerViewDelegate,UIPickerViewDataSource
-{
+extension MBDemoPageViewerVC:UIPickerViewDelegate, UIPickerViewDataSource {
    //TemplatePicker
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

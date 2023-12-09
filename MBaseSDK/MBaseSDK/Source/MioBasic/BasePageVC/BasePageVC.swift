@@ -1,9 +1,9 @@
 //
 //  BasePageVC.swift
-//  MBaseTestBed
+//  MBaseSDK
 //
 //  Created by mio on 2020/5/2.
-//  Copyright © 2020 innoorz. All rights reserved.
+//  Copyright © 2019 mio. All rights reserved.
 //
 
 import UIKit
@@ -30,16 +30,14 @@ import UIKit
         return false
     }
     
-    public static func registerPageFactory()
-    {
+    public static func registerPageFactory() {
         let pageFactory = PageFactory.sharedInstance
         let pageIdentity = getPageIdentity()
-        if(self.isDevloping())
-        {
+        if self.isDevloping() {
             PageFactory.developingIdentity = getPageIdentity()
         }
-        if(pageIdentity != "")
-        {
+        
+        if pageIdentity != "" {
             pageFactory.addPage(pageIdentity)
             let pageInfo = pageFactory.getPageInfoByIdentity(identity: pageIdentity)
             let author = MBAuthorCenter.getAuthorById(authorId: getAuthor().authorId)
@@ -52,25 +50,34 @@ import UIKit
     }
 }
 
+//資料範本處理
 extension BasePageVC: PageIoProtocol {
     open func getDataTemplates() -> [PageDataTemplate] {
         return (self as? BasePageProtocal)?.getPageDataTemplates?() ?? []
     }
     
     open func applyDataTemplate(name: String) {
-        for dataTemplate in getDataTemplates()
-        {
-            if(dataTemplate.name == name && dataTemplate.data != nil)
-            {
-                super.doInit(dataInit: dataTemplate.data!)
-                self.dataMap = dataTemplate.data!
+        for pageDataTemplate in getDataTemplates() {
+            if pageDataTemplate.name == name {
+                self.applyDataTemplate(pageDataTemplate: pageDataTemplate)
             }
         }
     }
     
-    open func applyDataTemplate(data: dataMapObj) {
-        super.doInit(dataInit: data)
-        self.dataMap = data
+    open func applyDataTemplate(pageDataTemplate: PageDataTemplate) {
+        if pageDataTemplate.dataInit != nil {
+            super.doInit(dataInit: pageDataTemplate.dataInit!)
+            self.didApplyDataTemplate()
+        }
+        
+        if pageDataTemplate.data != nil {
+            self.dataMap = pageDataTemplate.data!
+        }
+        self.didApplyDataTemplate()
+    }
+    
+    open func didApplyDataTemplate() {
+        
     }
 }
 

@@ -10,20 +10,17 @@ import UIKit
 
 public class MBUtlity: NSObject {
     
-    public static var haveDevPage:Bool = false
-    public class func createDemoPage()->MBDirectoryVC
-    {
+    public static var haveDevPage: Bool = false
+    public class func createDemoPage() -> MBDirectoryVC {
         let bundle = Bundle.init(for: MBDirectoryVC.self)
         let directoryVC = MBDirectoryVC.init(nibName: "MBDirectoryVC", bundle: bundle)
         return directoryVC
     }
     
-    public class func prepareDemoPage()
-    {
+    public class func prepareDemoPage() {
         haveDevPage = false
         let basePageVCs = MBRuntime.subclasses(of: BasePageVC.self)
-        for vc in basePageVCs
-        {
+        for vc in basePageVCs {
             let basePageVC = vc as? BasePageVC.Type
             basePageVC?.registerPageFactory()
             
