@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MBaseSDK_TEST.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MBaseSDK.xcodeproj">
    </FileRef>
    <FileRef

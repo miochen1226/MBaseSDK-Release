@@ -13,6 +13,7 @@
 		352419522595D2AA00876B44 /* BaseDOListDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352419502595D2AA00876B44 /* BaseDOListDemoVC.xib */; };
 		352419552595D49F00876B44 /* BaseDOListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352419532595D49F00876B44 /* BaseDOListVC.swift */; };
 		352419562595D49F00876B44 /* BaseDOListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352419542595D49F00876B44 /* BaseDOListVC.xib */; };
+		3568816C2B256434003974CE /* Pods_MBaseSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568816B2B256434003974CE /* Pods_MBaseSDK.framework */; };
 		358760692588B61D00239EDD /* MyBaseListExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760412588B61C00239EDD /* MyBaseListExVC.swift */; };
 		3587606A2588B61D00239EDD /* MyBaseListExVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 358760422588B61C00239EDD /* MyBaseListExVC.xib */; };
 		3587606B2588B61D00239EDD /* AttachedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760442588B61C00239EDD /* AttachedVC.swift */; };
@@ -39,8 +40,6 @@
 		358760802588B61D00239EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760652588B61D00239EDD /* ViewController.swift */; };
 		358760812588B61D00239EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358760662588B61D00239EDD /* AppDelegate.swift */; };
 		358760832588B61D00239EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358760682588B61D00239EDD /* Assets.xcassets */; };
-		35DA13EF2588BE21004FE1E0 /* MBaseSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA13EE2588BE21004FE1E0 /* MBaseSDK.framework */; };
-		35DA13F02588BE21004FE1E0 /* MBaseSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA13EE2588BE21004FE1E0 /* MBaseSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		35DA14082588BFED004FE1E0 /* BaseAuctionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA14062588BFED004FE1E0 /* BaseAuctionListVC.swift */; };
 		35DA14092588BFED004FE1E0 /* BaseAuctionListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DA14072588BFED004FE1E0 /* BaseAuctionListVC.xib */; };
 		35DA140F2588C054004FE1E0 /* JAAuctionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA140B2588C054004FE1E0 /* JAAuctionCell.swift */; };
@@ -50,13 +49,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		35DA13F12588BE22004FE1E0 /* Embed Frameworks */ = {
+		356881622B2562DE003974CE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35DA13F02588BE21004FE1E0 /* MBaseSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +68,7 @@
 		352419502595D2AA00876B44 /* BaseDOListDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDOListDemoVC.xib; sourceTree = "<group>"; };
 		352419532595D49F00876B44 /* BaseDOListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDOListVC.swift; sourceTree = "<group>"; };
 		352419542595D49F00876B44 /* BaseDOListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDOListVC.xib; sourceTree = "<group>"; };
+		3568816B2B256434003974CE /* Pods_MBaseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MBaseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		358760272588B50500239EDD /* MBaseSDK_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBaseSDK_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358760412588B61C00239EDD /* MyBaseListExVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBaseListExVC.swift; sourceTree = "<group>"; };
 		358760422588B61C00239EDD /* MyBaseListExVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBaseListExVC.xib; sourceTree = "<group>"; };
@@ -98,8 +97,6 @@
 		358760662588B61D00239EDD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		358760672588B61D00239EDD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358760682588B61D00239EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		358760862588B74900239EDD /* MBaseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBaseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35DA13EE2588BE21004FE1E0 /* MBaseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBaseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DA14062588BFED004FE1E0 /* BaseAuctionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAuctionListVC.swift; sourceTree = "<group>"; };
 		35DA14072588BFED004FE1E0 /* BaseAuctionListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseAuctionListVC.xib; sourceTree = "<group>"; };
 		35DA140B2588C054004FE1E0 /* JAAuctionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAAuctionCell.swift; sourceTree = "<group>"; };
@@ -113,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DA13EF2588BE21004FE1E0 /* MBaseSDK.framework in Frameworks */,
+				3568816C2B256434003974CE /* Pods_MBaseSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +195,6 @@
 				3587604D2588B61C00239EDD /* 3.BaseListDemo */,
 				3587603F2588B61C00239EDD /* 4.BaseListWithAttachCellDemo */,
 				3587605B2588B61C00239EDD /* Authors */,
-				358760602588B61C00239EDD /* New Group */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -315,13 +311,6 @@
 			path = 2.UIDataProviderDemo;
 			sourceTree = "<group>";
 		};
-		358760602588B61C00239EDD /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		358760622588B61C00239EDD /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,8 +322,7 @@
 		358760852588B74900239EDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35DA13EE2588BE21004FE1E0 /* MBaseSDK.framework */,
-				358760862588B74900239EDD /* MBaseSDK.framework */,
+				3568816B2B256434003974CE /* Pods_MBaseSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -378,7 +366,7 @@
 				358760232588B50500239EDD /* Sources */,
 				358760242588B50500239EDD /* Frameworks */,
 				358760252588B50500239EDD /* Resources */,
-				35DA13F12588BE22004FE1E0 /* Embed Frameworks */,
+				356881622B2562DE003974CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -536,6 +524,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"USE_MBASE_SRC=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -621,7 +610,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miochen.MBaseSDK-TEST.MBaseSDK-TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miochen.MBaseSDK-TEST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -642,7 +631,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miochen.MBaseSDK-TEST.MBaseSDK-TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miochen.MBaseSDK-TEST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

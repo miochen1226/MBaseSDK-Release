@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.49"
+  spec.version      = "1.0.50"
   spec.swift_version = '5.0'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MBaseSDK/**/*.{h,m,swift}"
-  spec.exclude_files = "MBaseSDK/MBaseSDK_TEST/**/*.{h,m,swift}"
+  spec.source_files  = "MBaseSDK/MBaseSDK/*.{h,m,swift}"
+  #spec.exclude_files = "MBaseSDK/MBaseSDK_TEST/**/*.{h,m,swift}"
   
   #spec.source_files  = "Classes/*.{h,m,swift}"
   #spec.source_files  = "MBaseSDK/Public/*.swift"

@@ -59,8 +59,6 @@
 		35DB5BA2245D6703001201F4 /* UIDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B85245D6703001201F4 /* UIDataProvider.swift */; };
 		35DB5BA3245D6703001201F4 /* UIDataProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B86245D6703001201F4 /* UIDataProviderDelegate.swift */; };
 		35DB5BA4245D6703001201F4 /* UITableDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B87245D6703001201F4 /* UITableDataProvider.swift */; };
-		35DB5BA5245D6703001201F4 /* BaseHolderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DB5B89245D6703001201F4 /* BaseHolderVC.xib */; };
-		35DB5BA6245D6703001201F4 /* BaseHolderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B8A245D6703001201F4 /* BaseHolderVC.swift */; };
 		35DB5BA7245D6703001201F4 /* RadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B8D245D6703001201F4 /* RadiusButton.swift */; };
 		35DB5BA8245D6703001201F4 /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B8F245D6703001201F4 /* RadiusView.swift */; };
 		35DB5BA9245D6703001201F4 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5B91245D6703001201F4 /* BorderView.swift */; };
@@ -105,8 +103,6 @@
 		35DB5B85245D6703001201F4 /* UIDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDataProvider.swift; sourceTree = "<group>"; };
 		35DB5B86245D6703001201F4 /* UIDataProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDataProviderDelegate.swift; sourceTree = "<group>"; };
 		35DB5B87245D6703001201F4 /* UITableDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableDataProvider.swift; sourceTree = "<group>"; };
-		35DB5B89245D6703001201F4 /* BaseHolderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseHolderVC.xib; sourceTree = "<group>"; };
-		35DB5B8A245D6703001201F4 /* BaseHolderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHolderVC.swift; sourceTree = "<group>"; };
 		35DB5B8D245D6703001201F4 /* RadiusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusButton.swift; sourceTree = "<group>"; };
 		35DB5B8F245D6703001201F4 /* RadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
 		35DB5B91245D6703001201F4 /* BorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
@@ -264,7 +260,7 @@
 				35DB5B69245D6703001201F4 /* PageIO */,
 				35DB5B6C245D6703001201F4 /* PageFactory */,
 				35DB5B6E245D6703001201F4 /* Base */,
-				35DB5B8B245D6703001201F4 /* Custmize */,
+				35DB5B8B245D6703001201F4 /* Customize */,
 			);
 			path = MioBasic;
 			sourceTree = "<group>";
@@ -304,7 +300,6 @@
 				35DB5B7C245D6703001201F4 /* CollectionVC */,
 				35DB5B80245D6703001201F4 /* DataFill */,
 				35DB5B83245D6703001201F4 /* UIDataProvider */,
-				35DB5B88245D6703001201F4 /* BaseHolderVC */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -398,16 +393,7 @@
 			path = UIDataProvider;
 			sourceTree = "<group>";
 		};
-		35DB5B88245D6703001201F4 /* BaseHolderVC */ = {
-			isa = PBXGroup;
-			children = (
-				35DB5B89245D6703001201F4 /* BaseHolderVC.xib */,
-				35DB5B8A245D6703001201F4 /* BaseHolderVC.swift */,
-			);
-			path = BaseHolderVC;
-			sourceTree = "<group>";
-		};
-		35DB5B8B245D6703001201F4 /* Custmize */ = {
+		35DB5B8B245D6703001201F4 /* Customize */ = {
 			isa = PBXGroup;
 			children = (
 				354306BD2461539F0098B272 /* RadiusImageView */,
@@ -415,7 +401,7 @@
 				35DB5B8E245D6703001201F4 /* RadiusView */,
 				35DB5B90245D6703001201F4 /* BorderView */,
 			);
-			path = Custmize;
+			path = Customize;
 			sourceTree = "<group>";
 		};
 		35DB5B8C245D6703001201F4 /* RadiusButton */ = {
@@ -548,7 +534,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				353CE56A2462B9EC000A058D /* MBDemoPageViewerVC.xib in Resources */,
-				35DB5BA5245D6703001201F4 /* BaseHolderVC.xib in Resources */,
 				353CE5682462B9EC000A058D /* MBDemoStageCellHeader.xib in Resources */,
 				353CE5662462B9EC000A058D /* MBDirectoryCell.xib in Resources */,
 				353CE5632462B9EC000A058D /* MBDirectoryVC.xib in Resources */,
@@ -628,7 +613,6 @@
 				353CE56B2462B9EC000A058D /* MBDemoPageViewerVC.swift in Sources */,
 				35DB5BA9245D6703001201F4 /* BorderView.swift in Sources */,
 				35DB5B9D245D6703001201F4 /* BaseCollectionVC.swift in Sources */,
-				35DB5BA6245D6703001201F4 /* BaseHolderVC.swift in Sources */,
 				353CE5692462B9EC000A058D /* MBDemoStageCellHeader.swift in Sources */,
 				353CE5652462B9EC000A058D /* MBDirectoryCell.swift in Sources */,
 				353CE5712462BE3C000A058D /* MBUtlity.swift in Sources */,

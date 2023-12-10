@@ -24,7 +24,7 @@ class BaseDOListDemoVC: BasePageVC {
     }
     
     override class func isDevloping() -> Bool {
-        return true
+        return false
     }
     
     override func viewDidLoad() {
