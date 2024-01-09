@@ -9,8 +9,7 @@
 import UIKit
 import MBaseSDK
 
-class MyDataProvider:UIDataProvider
-{
+class MyDataProvider: UIDataProvider {
     var labelText = "UIDataProviderDemoVC"
     var imageUrl = "https://cdn.carnews.com/thumb/1236x989/article/08f23f78-e682-11e9-a795-42010af00004/Dn8Lmhw6XCg8.jpg"
     override func getDataMap() -> dataMapObj {
@@ -21,7 +20,6 @@ class MyDataProvider:UIDataProvider
 }
 
 class UIDataProviderDemoVC: BasePageVC {
-
     override class func getPageIdentity() -> String {
         return "2.UIDataProvider Demo"
     }
@@ -35,13 +33,13 @@ class UIDataProviderDemoVC: BasePageVC {
     }
     
     let myDataProvider = MyDataProvider()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataProvider = myDataProvider
     }
     
-    @IBAction func didTestClicked(_ sender:Any)
-    {
+    @IBAction func didTestClicked(_ sender: Any) {
         myDataProvider.labelText = "Pressed"
         myDataProvider.imageUrl = "https://fate-15th.com/assets/img/pc/img_main.jpg"
         myDataProvider.notifyDataChange()

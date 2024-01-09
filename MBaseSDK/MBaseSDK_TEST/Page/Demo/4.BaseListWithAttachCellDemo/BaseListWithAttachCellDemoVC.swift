@@ -10,9 +10,7 @@ import UIKit
 import MBaseSDK
 
 class BaseListWithAttachCellDemoVC: BasePageVC {
-
-    @IBOutlet weak var viewList:UIView!
-    
+    @IBOutlet weak var viewList: UIView!
     override class func getPageIdentity() -> String {
         return "4.BaseList With Attach Cell Demo"
     }
@@ -31,23 +29,18 @@ class BaseListWithAttachCellDemoVC: BasePageVC {
         AttachMyBaseListVC()
     }
     
-    func AttachMyBaseListVC()
-    {
+    func AttachMyBaseListVC() {
         super.appendViewController(type: MyBaseListExVC.self, nibName: "MyBaseListExVC", controlId: "MyBaseListExVC", to: self.viewList)
     }
 
-    @IBAction func didTestClicked(_ sender:Any)
-    {
+    @IBAction func didTestClicked(_ sender: Any) {
         let myBaseListExVC = super.getSubViewControlByID("MyBaseListExVC") as? MyBaseListExVC
-        
         let result = myBaseListExVC?.allowInsertSelf() ?? false
-        if(result == true)
-        {
+        if result == true {
             self.dataMap["btnTest"] = "Remove Self"
             self.viewDidLayoutSubviews()
         }
-        else
-        {
+        else {
             self.dataMap["btnTest"] = "Add Self"
             self.viewDidLayoutSubviews()
         }

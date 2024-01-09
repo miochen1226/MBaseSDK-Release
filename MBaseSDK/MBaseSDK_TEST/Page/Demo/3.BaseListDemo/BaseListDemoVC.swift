@@ -10,9 +10,7 @@ import UIKit
 import MBaseSDK
 
 class BaseListDemoVC: BasePageVC {
-
     @IBOutlet weak var viewList:UIView!
-    
     override class func getPageIdentity() -> String {
         return "3.BaseList Demo"
     }
@@ -26,9 +24,7 @@ class BaseListDemoVC: BasePageVC {
     }
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-        
         self.dataMap["labelList"] = "BaseListDemoVC"
         self.dataMap["btnTest"] = "Push me"
         self.dataMap["btnClean"] = "Clean all"
@@ -36,19 +32,16 @@ class BaseListDemoVC: BasePageVC {
         AttachMyBaseListVC()
     }
 
-    func AttachMyBaseListVC()
-    {
+    func AttachMyBaseListVC() {
         super.appendViewController(type: MyBaseListVC.self, nibName: "MyBaseListVC", controlId: "MyBaseListVC", to: self.viewList)
     }
     
-    @IBAction func didTestClicked(_ sender:Any)
-    {
+    @IBAction func didTestClicked(_ sender: Any) {
         let myBaseListVC = super.getSubViewControlByID("MyBaseListVC") as? MyBaseListVC
         myBaseListVC?.insertItems()
     }
     
-    @IBAction func didCleanClicked(_ sender:Any)
-    {
+    @IBAction func didCleanClicked(_ sender: Any) {
         let myBaseListVC = super.getSubViewControlByID("MyBaseListVC") as? MyBaseListVC
         myBaseListVC?.cleanItems()
     }

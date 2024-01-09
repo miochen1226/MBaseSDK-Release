@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,27 +21,37 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHu-v1-k9j">
-                    <rect key="frame" x="20" y="74" width="374" height="728"/>
+                    <rect key="frame" x="20" y="74" width="374" height="732"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06X-nC-gN8">
-                    <rect key="frame" x="20" y="812" width="374" height="70"/>
-                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06X-nC-gN8" customClass="RadiusButton" customModule="MBaseSDK">
+                    <rect key="frame" x="20" y="816" width="374" height="60"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <accessibility key="accessibilityConfiguration" identifier="btnTEST"/>
-                    <state key="normal" title="TEXT"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="V8v-yB-p4t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="TEXT">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="didTestClicked:" destination="-1" eventType="touchUpInside" id="YL1-BW-Zr9"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemPurpleColor"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="QHu-v1-k9j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3mM-gM-WR3"/>
-                <constraint firstItem="06X-nC-gN8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="20" id="CNV-9F-sBp"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="06X-nC-gN8" secondAttribute="trailing" constant="20" id="DRn-cg-Ofx"/>
+                <constraint firstAttribute="bottom" secondItem="06X-nC-gN8" secondAttribute="bottom" constant="20" id="KK3-l3-CQG"/>
                 <constraint firstItem="QHu-v1-k9j" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="clJ-NK-b33"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QHu-v1-k9j" secondAttribute="bottom" constant="60" id="eRk-nZ-Bbw"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QHu-v1-k9j" secondAttribute="trailing" constant="20" id="nRU-vU-uGE"/>
                 <constraint firstItem="06X-nC-gN8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="vvw-gx-GEV"/>
                 <constraint firstItem="06X-nC-gN8" firstAttribute="top" secondItem="QHu-v1-k9j" secondAttribute="bottom" constant="10" id="xC7-P7-FS0"/>
@@ -52,8 +63,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

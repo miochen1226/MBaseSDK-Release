@@ -9,8 +9,7 @@
 import UIKit
 import MBaseSDK
 
-extension BaseAuctionListVC:UITableDataProviderDelegate
-{
+extension BaseAuctionListVC: UITableDataProviderDelegate {
     func emptyCellData() -> dataMapObj {
         var itemDataEmpty = dataMapObj()
         itemDataEmpty["nibName"] = "AuctionEmptyWithCheckScheduleCell"
@@ -19,8 +18,7 @@ extension BaseAuctionListVC:UITableDataProviderDelegate
         return itemDataEmpty
     }
     
-    func itemObjToCellData(data:Any?,nibName:String)->dataMapObj
-    {
+    func itemObjToCellData(data:Any?, nibName: String) -> dataMapObj {
         var dataMapObj:dataMapObj = data as? dataMapObj ?? [:]
         dataMapObj["nibName"] = nibName
         return dataMapObj
@@ -28,38 +26,23 @@ extension BaseAuctionListVC:UITableDataProviderDelegate
 }
 
 class BaseAuctionListVC: BaseListVC {
-    var auctionType = ""
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataProvider = UITableDataProvider(delegate: self)
     }
 
-    override func doInit(dataInit: dataMapObj)
-    {
-        super.doInit(dataInit: dataInit)
-        let auctionType = self.dataInit?["auctionType"]
-        if(auctionType != nil)
-        {
-            self.baseDataPageInfo.setParam(key: "auctionType", value: auctionType!)
-        }
-    }
-    
-    @objc override func refreshData()
-    {
+    @objc override func refreshData() {
         self.doFetchListData()
     }
 
-    override func doFetchListData()
-    {
-        for i in 1...20
-        {
-            let auctionImage = "https://www.fate-sn.com/assets_hf3/img/special/countdown/HF3-countdown100_"+String(i)+".jpg"
+    override func doFetchListData() {
+        for i in 1...20 {
+            let auctionImage = "https://www.fate-sn.com/assets_hf3/img/special/countdown/HF3-countdown100_" + String(i) + ".jpg"
             
             let data =
-                ["auctionStatus":"OPEN","auctionTitle":"TITLE_"+String(i),
-                        "auctionDuration":"DURATION_"+String(i),
-                        "auctionInfo":"INFO_"+String(i),
+                ["auctionStatus":"OPEN","auctionTitle":"TITLE_" + String(i),
+                        "auctionDuration":"DURATION_" + String(i),
+                        "auctionInfo":"INFO_" + String(i),
                         "auctionImage":auctionImage]
             self.tableDataProvider?.insertItem(itemId: String(i), data: data, nibName: "JAAuctionCell")
         }

@@ -34,8 +34,7 @@ class BaseDOListDemoVC: BasePageVC {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func didTestClicked(_ sender:Any)
-    {
+    @IBAction func didTestClicked(_ sender: Any) {
         let baseDOListVC = super.getSubViewControlByID("BaseDOListVC") as? BaseDOListVC
         baseDOListVC?.TEST()
     }

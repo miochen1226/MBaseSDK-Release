@@ -9,7 +9,6 @@ import UIKit
 import MBaseSDK
 
 class UITableDataProviderDemoVC: BasePageVC {
-
     @IBOutlet weak var viewList:UIView!
     override class func getPageIdentity() -> String {
         return "5.UITableDataProviderDemoVC"
@@ -25,17 +24,13 @@ class UITableDataProviderDemoVC: BasePageVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.dataMap["btnLoad"] = "LOAD"
-        
         super.appendViewController(type: BaseAuctionListVC.self, nibName: "BaseAuctionListVC", controlId: "BaseAuctionListVC", to: self.viewList)
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func didLoadeFakeBtnClicked(_ sender:Any)
-    {
+    @IBAction func didLoadeFakeBtnClicked(_ sender: Any) {
         let baseAuctionListVC = super.getSubViewControlByID("BaseAuctionListVC") as? BaseAuctionListVC
-        
         baseAuctionListVC?.doFetchListData()
     }
     

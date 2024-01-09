@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseVCDemoVC" customModule="MBaseDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseVCDemoVC" customModule="MBaseSDK_TEST" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -45,12 +46,13 @@
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgW-dv-0kU" customClass="RadiusButton" customModule="MBaseSDK">
-                    <rect key="frame" x="20" y="333" width="374" height="40"/>
+                    <rect key="frame" x="20" y="333" width="68" height="40"/>
                     <color key="backgroundColor" red="0.0" green="0.69615161420000005" blue="0.65294134619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <accessibility key="accessibilityConfiguration" identifier="btnPush"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="k6G-T5-vQ4"/>
                     </constraints>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                     <state key="normal" title="TEXT">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,12 +67,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBB-JE-des" customClass="RadiusButton" customModule="MBaseSDK">
-                    <rect key="frame" x="20" y="393" width="374" height="40"/>
-                    <color key="backgroundColor" red="0.0" green="0.69615161420000005" blue="0.65294134619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <rect key="frame" x="20" y="393" width="68" height="40"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <accessibility key="accessibilityConfiguration" identifier="btnPresent"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="PIr-yg-l8z"/>
                     </constraints>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                     <state key="normal" title="TEXT">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,12 +88,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gp6-H4-mIX" customClass="RadiusButton" customModule="MBaseSDK">
-                    <rect key="frame" x="20" y="453" width="374" height="40"/>
-                    <color key="backgroundColor" red="0.0" green="0.69615161420000005" blue="0.65294134619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <rect key="frame" x="20" y="453" width="68" height="40"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     <accessibility key="accessibilityConfiguration" identifier="btnClose"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="thz-zg-VfV"/>
                     </constraints>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                     <state key="normal" title="TEXT">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,12 +109,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-N2-zL5" customClass="RadiusButton" customModule="MBaseSDK">
-                    <rect key="frame" x="20" y="513" width="374" height="40"/>
-                    <color key="backgroundColor" red="0.0" green="0.69615161420000005" blue="0.65294134619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <rect key="frame" x="20" y="513" width="68" height="40"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
                     <accessibility key="accessibilityConfiguration" identifier="btnBack"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="0Kx-jr-Hb1"/>
                     </constraints>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                     <state key="normal" title="TEXT">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -128,7 +133,6 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="gp6-H4-mIX" secondAttribute="trailing" constant="20" id="11d-cp-zqL"/>
                 <constraint firstItem="HqA-7H-j0u" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="2aP-Zd-63f"/>
                 <constraint firstItem="HqA-7H-j0u" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="35Z-Es-LS7"/>
                 <constraint firstItem="FgW-dv-0kU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="8OG-HY-5OQ"/>
@@ -140,10 +144,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JKr-mT-nQA" secondAttribute="trailing" constant="10" id="TDF-UM-gX6"/>
                 <constraint firstItem="ecD-N2-zL5" firstAttribute="top" secondItem="gp6-H4-mIX" secondAttribute="bottom" constant="20" id="WJK-po-IXM"/>
                 <constraint firstItem="JKr-mT-nQA" firstAttribute="top" secondItem="HqA-7H-j0u" secondAttribute="bottom" constant="20" id="Z4H-v2-ekQ"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dBB-JE-des" secondAttribute="trailing" constant="20" id="b2J-iS-GsT"/>
                 <constraint firstItem="dBB-JE-des" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="eeQ-wi-TvD"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FgW-dv-0kU" secondAttribute="trailing" constant="20" id="egF-8r-26F"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ecD-N2-zL5" secondAttribute="trailing" constant="20" id="evX-Ye-mqN"/>
                 <constraint firstItem="JKr-mT-nQA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="gdo-YO-uPm"/>
             </constraints>
             <point key="canvasLocation" x="139" y="114"/>
@@ -151,16 +152,27 @@
     </objects>
     <designables>
         <designable name="FgW-dv-0kU">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="68" height="18"/>
         </designable>
         <designable name="dBB-JE-des">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="68" height="18"/>
         </designable>
         <designable name="ecD-N2-zL5">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="68" height="18"/>
         </designable>
         <designable name="gp6-H4-mIX">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="68" height="18"/>
         </designable>
     </designables>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

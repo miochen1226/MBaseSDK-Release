@@ -8,47 +8,28 @@
 import UIKit
 import MBaseSDK
 
-class ChatMessageDO:NSObject{
-    var itemID:String = ""
-    var message:String = ""
-    var name:String = ""
-    var date:Date? = nil
-    
-    func getFullDateTimeStr(date:Date)->String
-    {
+extension Date {
+    func getFullDateTimeStr() -> String {
         let locale = "zh-TW"
         let dateFormatter = DateFormatter()
         
         dateFormatter.locale = Locale.init(identifier: locale)
         dateFormatter.dateStyle = .short
-        
-        if(locale == "zh-TW")
-        {
-            dateFormatter.dateFormat = "HH:mm:ss"
-        }
-        else
-        {
-            dateFormatter.dateFormat = "YYYY/MM/dd HH:mm"
-        }
-        let dateStrig = dateFormatter.string(from:date)
+        dateFormatter.dateFormat = "HH:mm:ss"
+        let dateStrig = dateFormatter.string(from: self)
         return dateStrig
-    }
-    
-    func getTimeStr()->String
-    {
-        if(self.date != nil)
-        {
-            return self.getFullDateTimeStr(date: self.date!)
-        }
-        else
-        {
-            return ""
-        }
     }
 }
 
-extension BaseDOListVC:UITableDataProviderDelegate
-{
+struct ChatMessageDO {
+    var itemID:String = ""
+    var message:String = ""
+    var name:String = ""
+    var date:Date? = nil
+    var dateStr:String = ""
+}
+
+extension BaseDOListVC: UITableDataProviderDelegate {
     func emptyCellData() -> dataMapObj {
         var itemDataEmpty = dataMapObj()
         itemDataEmpty["nibName"] = "AuctionEmptyWithCheckScheduleCell"
@@ -57,13 +38,12 @@ extension BaseDOListVC:UITableDataProviderDelegate
         return itemDataEmpty
     }
     
-    func itemObjToCellData(data:Any?,nibName:String)->dataMapObj
-    {
+    func itemObjToCellData(data:Any?, nibName: String) -> dataMapObj {
         var dataForCell = dataMapObj()
         let chatMessageDO:ChatMessageDO? = data as? ChatMessageDO ?? nil
         
         dataForCell["itemID"] = chatMessageDO?.itemID ?? ""
-        dataForCell["time"] = chatMessageDO?.getTimeStr()
+        dataForCell["time"] = chatMessageDO?.dateStr ?? ""
         dataForCell["message"] = chatMessageDO?.message
         dataForCell["name"] = chatMessageDO?.name
         dataForCell["nibName"] = nibName
@@ -74,13 +54,9 @@ extension BaseDOListVC:UITableDataProviderDelegate
 class BaseDOListVC: BaseListVC {
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.dataProvider = UITableDataProvider(delegate: self)
         // Do any additional setup after loading the view.
         insertDatas()
-        
-        self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(BaseDOListVC.TEST), userInfo: nil, repeats: true)
-        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -88,85 +64,73 @@ class BaseDOListVC: BaseListVC {
         cell?.dataMap = dataMapForCell(indexPath: indexPath)
         
         let baseVC = self.getBaseVcForCell(indexPath:indexPath)
-        if(baseVC != nil)
-        {
+        if baseVC != nil {
             var viewBase:UIView? = nil
             if #available(iOS 14, *) {
                 viewBase = cell?.contentView
-            } else {
+            }
+            else {
                 viewBase = cell
             }
             
-            if(viewBase != nil)
-            {
+            if viewBase != nil {
                 baseVC?.view.removeFromSuperview()
                 viewBase!.addSubview(baseVC!.view)
                 baseVC!.view.frame = CGRect.init(x: 0, y: 0, width: viewBase!.frame.size.width, height: viewBase!.frame.size.height)
             }
         }
         
-        
         cell?.layoutIfNeeded()
         return cell!
     }
 
-    func insertDatas()
-    {
-        for i in 1...20000
-        {
-            let data = ChatMessageDO()
-            data.itemID = String(i)
-            data.date = Date()
-            data.message = "0"
-            data.name = "item_" + String(i)
+    func insertDatas() {
+        for i in 1...20000 {
+            let date = Date()
+            let data = ChatMessageDO(itemID: String(i), message: "0", name: "item_" + String(i), date: date, dateStr: date.getFullDateTimeStr())
             self.tableDataProvider?.insertItem(itemId: "0", data: data, nibName: "DOTableViewCell")
         }
         self.tableDataProvider?.notifyDataChange()
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-            //cell.alpha = 0
         
         let itemPack = self.tableDataProvider?.items[indexPath.row]
-        if(itemPack?.needRefresh == true)
-        {
+        if itemPack?.needRefresh == true {
             itemPack?.needRefresh = false
             cell.backgroundColor = .yellow
         }
         UIView.animate(withDuration: 0.4) {
-            //cell.alpha = 1
             cell.backgroundColor = .white
         }
     }
     
-    var timer: Timer?
-    
-    @objc func TEST()
-    {
+    func TEST() {
         let number = Int.random(in: 1...4)
-        
-        for _ in 0...number
-        {
+        for _ in 0...number {
             let index = Int.random(in: 1...7)
             let itemPack = self.tableDataProvider?.items[index]
             let chatMessageDO = itemPack?.getData() as? ChatMessageDO
             
+            if chatMessageDO == nil {
+                continue
+            }
             let value = Int.random(in: 1...100)
-            chatMessageDO?.message = String(value)
+            let date = Date()
+            let newChatMessageDO = ChatMessageDO(itemID: chatMessageDO!.itemID, message: String(value), name: chatMessageDO?.name ?? "", date: date, dateStr: date.getFullDateTimeStr())
+            
+            itemPack?.updateData(itemId: newChatMessageDO.itemID, data: newChatMessageDO, nibName: "DOTableViewCell")
             itemPack?.needRefresh = true
         }
         
         refreshItems()
     }
     
-    func refreshItems()
-    {
+    func refreshItems() {
         var indexArray:[IndexPath] = []
         var index = 0
-        for item in self.tableDataProvider?.items ?? []
-        {
-            if(item.needRefresh == true)
-            {
+        for item in self.tableDataProvider?.items ?? [] {
+            if item.needRefresh == true {
                 let indexPath = IndexPath.init(row: index, section: 0)
                 indexArray.append(indexPath)
             }
