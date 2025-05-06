@@ -15,15 +15,15 @@ public protocol UITableDataProviderDelegate:AnyObject{
 
 
 
-open class UITableDataProvider: UIDataProvider {
+public class UITableDataProvider: UIDataProvider {
     open weak var delegate:UITableDataProviderDelegate?
     
-    open class ItemPack
+    public class ItemPack
     {
-        var itemId:String = ""
+        public var itemId:String = ""
         var data:Any?
         var nibName:String = ""
-        init(itemId:String,data:Any?,nibName:String)
+        public init(itemId:String,data:Any?,nibName:String)
         {
             self.itemId = itemId
             self.data = data

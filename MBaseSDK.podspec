@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.52"
+  spec.version      = "1.0.53"
   spec.swift_version = '5.0'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -102,10 +102,10 @@ Pod::Spec.new do |spec|
   #spec.vendored_frameworks = "MBaseSDK/frameworks/MBaseSDK.framework"
 
   #spec.public_header_files = "MBaseSDK/Public/MBaseHeader.swift"
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }	
+  #spec.pod_target_xcconfig = {
+  #  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  #}
+  #spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }	
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
