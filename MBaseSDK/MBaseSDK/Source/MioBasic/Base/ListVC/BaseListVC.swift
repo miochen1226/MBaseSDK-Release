@@ -286,6 +286,20 @@ open class BaseListVC: BaseVC, UITableViewDelegate, UITableViewDataSource, BaseT
         cell?.dataMap = dataMapForCell(indexPath: indexPath)
         
         let baseVC = self.getBaseVcForCell(indexPath:indexPath)
+        
+        //移除舊attachedVC
+        for subViewInCell in cell?.contentView.subviews ?? [] {
+            print(subViewInCell)
+            
+            let isContain = mapAttachedVCs.contains { (key, baseVC) in
+                subViewInCell == baseVC.view
+            }
+            
+            if isContain {
+                subViewInCell.removeFromSuperview()
+            }
+        }
+        
         if baseVC != nil {
             var viewBase:UIView? = nil
             if #available(iOS 14, *) {
