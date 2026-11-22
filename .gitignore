@@ -4,3 +4,7 @@
 **/xcshareddata/IDEWorkspaceChecks.plist
 DerivedData/
 build/
+Pods/
+Podfile.lock
+MBaseSDK/Output/
+*.xcarchive

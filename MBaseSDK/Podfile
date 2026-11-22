@@ -5,7 +5,7 @@ project 'MBaseSDK.xcodeproj'
 target 'MBaseSDK' do
   use_frameworks!
 
-  pod 'Kingfisher', '~> 5.15'
+  pod 'Kingfisher', '~> 7.12'
 end
 
 post_install do |installer|
