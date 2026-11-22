@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MBaseSDK"
-  spec.version      = "1.0.55"
+  spec.version      = "1.1.0"
   spec.swift_version = '5.0'
   spec.summary      = "MBaseSDK offers some powerful classes and tools doing routine things for you!"
 
@@ -66,10 +66,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "10.0"
+   spec.platform     = :ios, "15.0"
 
   #  When using multiple platforms
-   spec.ios.deployment_target = "10.0"
+   spec.ios.deployment_target = "15.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"

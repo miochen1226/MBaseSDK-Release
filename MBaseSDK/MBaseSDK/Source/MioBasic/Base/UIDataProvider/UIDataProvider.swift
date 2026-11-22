@@ -1,6 +1,6 @@
 //
 //  UIDataProvider.swift
-//  MBaseSDK
+//  jourdenessSPA
 //
 //  Created by mio on 2019/4/15.
 //  Copyright © 2019 mio. All rights reserved.
@@ -11,11 +11,11 @@ import UIKit
 public typealias dataMapObj = [String : Any]
 public typealias funcGetDataMap = () -> dataMapObj
 
-public protocol UIDataProviderProtocal:AnyObject{
+public protocol UIDataProviderProtocal:class{
     func getTableData()->dataMapObj
 }
 
-protocol UIDataProviderDataSourceProtocal:AnyObject{
+protocol UIDataProviderDataSourceProtocal:class{
     func getSourceDataMap(_ dataProvider:UIDataProvider)->dataMapObj
     func getSourceTableData(_ dataProvider:UIDataProvider)->dataMapObj
 }

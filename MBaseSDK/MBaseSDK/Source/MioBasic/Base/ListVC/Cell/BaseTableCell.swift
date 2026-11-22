@@ -1,6 +1,6 @@
 //
 //  BaseTableCell.swift
-//  MBaseSDK
+//  jourdenessSPA
 //
 //  Created by mio on 2019/4/1.
 //  Copyright © 2019 mio. All rights reserved.
@@ -9,13 +9,13 @@
 import UIKit
 
 
-public protocol BaseTableCellDelegate :AnyObject {
+public protocol BaseTableCellDelegate {
     func didBaseTableCellButtonClicked(data:dataMapObj)
 }
 
 
 open class BaseTableCell:UITableViewCell,DFProtocal {
-    public weak var baseDelegate: BaseTableCellDelegate?
+    public var baseDelegate: BaseTableCellDelegate?
     open var dataMap: [String : Any] = [:]
     var sepratorHeight:Float = 10
     var cornerRadius:Float = 0

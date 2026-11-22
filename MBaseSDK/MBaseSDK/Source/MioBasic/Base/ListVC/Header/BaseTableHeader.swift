@@ -1,6 +1,6 @@
 //
 //  CasherGiftSectionHeaderVC.swift
-//  MBaseSDK
+//  jourdenessSPA
 //
 //  Created by mio on 2019/4/13.
 //  Copyright © 2019 mio. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol BaseTableHeaderDelegate:AnyObject{
+public protocol BaseTableHeaderDelegate {
     func didHeaderClicked(tag:Int)
     func didHeaderButtonClicked(tag:Int,section:Int)
     func didHeaderButtonClickedWithData(data: [String : Any])
@@ -21,7 +21,7 @@ open class BaseTableHeader: BaseVC {
     }
     
     @IBOutlet weak var viewTabArea:UIView!
-    open weak var delegate:BaseTableHeaderDelegate?
+    open var delegate:BaseTableHeaderDelegate?
     open override func viewDidLoad() {
         super.viewDidLoad()        
         // Do any additional setup after loading the view.

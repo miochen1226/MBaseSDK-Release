@@ -1,6 +1,6 @@
 //
 //  PageIO.swift
-//  MBaseSDK
+//  Jurassic
 //
 //  Created by mio on 2019/9/3.
 //  Copyright © 2019 mio. All rights reserved.
@@ -8,22 +8,24 @@
 
 import Foundation
 
-open class PageDataTemplate: NSObject{
+open class PageDataTemplate:NSObject{
     open var name = ""
-    open var dataInit: dataMapObj?
-    open var data: dataMapObj?
+    open var data:dataMapObj?
 }
 
-@objc public protocol PageIoProtocol: AnyObject{
+public protocol PageIoProtocol:class{
+    
     //頁面主動提供的測試情境範本
-    func getDataTemplates() -> [PageDataTemplate]
+    //[[identity:"Test_1",data:dataMapObj],[identity:"Test_2",data:dataMapObj]]
+    func getDataTemplates()->[PageDataTemplate]
     
-    //套用DataTemplate資料,由名稱
     func applyDataTemplate(name: String)
+    //套用頁面提供的測試資料範本
+    //func applyInputTemplate(identity:String)
     
-    //套用DataTemplate資料
-    func applyDataTemplate(pageDataTemplate: PageDataTemplate)
+    //預設Input範本 -> 提供給用戶填充
+    //func getDefaultInputTemplates()->dataMapObj
     
-    //套用DataTemplate資料後處理
-    func didApplyDataTemplate()
+    //套用Input資料
+    func applyDataTemplate(data:dataMapObj)
 }
