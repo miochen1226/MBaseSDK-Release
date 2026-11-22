@@ -67,7 +67,7 @@ public class MBDemoPageViewerVC: BaseVC {
         }
     }
     
-    func initTemplatePicker()
+    public func initTemplatePicker()
     {
         let myPickerView = UIPickerView(frame: CGRect(
             x: 0, y: 0,
@@ -78,7 +78,7 @@ public class MBDemoPageViewerVC: BaseVC {
         LayoutTool.applyFitParent(view: self.viewTemplateContent, viewSub: myPickerView)
     }
 
-    func applyDataTemplate(index:Int)
+    public func applyDataTemplate(index:Int)
     {
         let templateName = self.inputTemplates[index].name
         self.dataMap["btnTemplate"] = templateName

@@ -27,7 +27,7 @@ public class MBDirectoryVC: BaseListVC {
         }
     }
     
-    override func headerVcForSectoin(_ section:Int)->BaseVC?
+    open override func headerVcForSectoin(_ section:Int)->BaseVC?
     {
         let dataMap = self.dataMapForSection(section: section)
         let nibName = dataMap["nibName"] as? String ?? ""

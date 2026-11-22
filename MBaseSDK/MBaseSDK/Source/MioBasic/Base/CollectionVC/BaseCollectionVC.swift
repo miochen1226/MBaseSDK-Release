@@ -9,8 +9,8 @@
 import UIKit
 /*
 protocol BaseCollectionDelegate {
-    func cellNameMapForBase() -> [String]
-    func cellClassIdentifyforIndex(_ indexPath:IndexPath)->String
+    open func cellNameMapForBase() -> [String]
+    open func cellClassIdentifyforIndex(_ indexPath:IndexPath)->String
 }
 */
 
